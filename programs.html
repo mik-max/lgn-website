@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+     <link rel="stylesheet" href="./CSS/index.css">
+     <link rel="stylesheet" href="./CSS/header.css">
+     <link rel="stylesheet" href="./CSS/programs.css">
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+     <script src="./Js/tabs.js"></script>
+     <script src="./Js/dropdownMenu.js"></script>
+     <title>Document</title>
+</head>
+<body>
+     <section>
+          <header class="programs__header">
+               <span class="programs__bars" id="bars"><i class="fa fa-bars" aria-hidden="true"></i></span>
+               <div class="programs__logoDiv">
+                    <img src="images/LGN LOGO 2.png" alt="">
+               </div>
+               <div class="programs__searchDiv">
+                    <div id="google_translate_element" class=" "></div>
+                    <span class="programs__searchIconDiv"><i class="fa fa-search" aria-hidden="true"></i></span>
+               </div>
+          </header>
+     </section>
+     <section class="dropdownMenu hide animate__animated animate__fadeInDown" id="dropDown">
+          <div class="dropdownMenu__header">
+               <div class="dropdownMenu__logoDiv">
+                    <img src="images/LGN LOGO 2.png" alt="">
+               </div>
+               <span class="dropdownMenu__closeIconDiv" id="closeIcon"><i class="fa fa-times" aria-hidden="true"></i></span>
+          </div>
+          <div class="dropdownMenu__jumbotron" id="dropdownMenu__jumbotron">
+               <div class="dropdownMenu__sideNav">
+                    <ul class="dropdownMenu__menu">
+                         <li class="dropdownMenu__menuList" id="aboutUs">About Us</li>
+                         <li class="dropdownMenu__menuList" id="programs">Programs</li>
+                         <li class="dropdownMenu__menuList" id="ourInitiatives">Our Initiative</li>
+                         <li class="dropdownMenu__menuList" id="contactUs">Contact Us</li>
+                         <li class="dropdownMenu__menuList" id="contribute">Contribute</li>
+                    </ul>
+               </div>
+               <div class="dropdownMenu__bar animate__animated animate__fadeInDown  hide" id="dropdownBars"></div>
+               <div class="dropdownMenu__sideNav">
+                    <ul class="dropdownMenu__menu hide" id="aboutSubmenu">
+                         <li class="dropdownMenu__menuList animate__animated animate__fadeInUp"><a href="about.html">Who we are</a></li>
+                         <li class="dropdownMenu__menuList animate__animated animate__fadeInUp"><a href="about-pastor-chris.html">About pastor Chris</a></li>
+                    </ul>
+                    <ul class="dropdownMenu__menu hide" id="programSubmenu">
+                         <li class="dropdownMenu__menuList animate__animated animate__fadeInUp"><a href="programs.html">Our programs</a></li>
+                         <li class="dropdownMenu__menuList animate__animated animate__fadeInUp"><a href="#">Ministry Programs</a></li>
+                    </ul>
+               </div>
+          </div>
+          <div class="dropdownMenu__footer"></div>
+     </section>
+     <section class="program__section">
+          <div class="program__jumbotron">
+               <div class="program__details">
+                    <h1>Explore our Programs</h1>
+                    <p>Discover our programs that would serve as a tool to network your success and build you up</p>
+               </div>
+          </div>
+     </section>
+     <section class="progams__tabsSection">
+          <div class="programs__tabsDiv">
+               <div class="programs__tabs active__tabs" id="tab1">
+                    <p>All programs</p>
+               </div>
+               <div class="programs__tabs" id="tab2">
+                    <p>Ongoing Programs</p>
+               </div>
+               <div class="programs__tabs" id="tab3">
+                    <p>Upcoming Programs</p>
+               </div>
+               <div class="programs__search">
+                    <p>Search program</p>
+                    <span><i class="fa fa-search" aria-hidden="true"></i></span>
+               </div>
+          </div>
+     </section>
+
+     <section class="programs__allPograms">
+          <div class="mySlides" data-aos="fade-up" data-aos-duration="1000">
+               <div class="story-image-div">
+                    <h4 class="">August 2020</h4>
+                    <div class="story-image">
+                         <img src="images/gymnazo.png" alt="">
+                    </div>
+               </div>
+               <div class="story-content-div">
+                    <div class="story-content">
+                         <h3>Gymnazo</h2>
+                         <p>Ehance overall wellness and fitness of the spirit, mind and body. Join the 21 days full fitness program in August 2022</p>
+                         <button class="btn" data-aos="zoom-in" data-aos-duration="1000">Register</button>
+                    </div>
+               </div>
+          </div>
+
+          <div class="mySlides" data-aos="fade-up" data-aos-duration="1000">
+               <div class="story-image-div">
+                    <h4 class="">August 2020</h4>
+                    <div class="story-image">
+                         <img src="images/graduate__course.png" alt="">
+                    </div>
+               </div>
+               <div class="story-content-div">
+                    <div class="story-content">
+                         <h3>Gymnazo</h2>
+                         <p>Ehance overall wellness and fitness of the spirit, mind and body. Join the 21 days full fitness program in August 2022</p>
+                         <button class="btn" data-aos="zoom-in" data-aos-duration="1000">Register</button>
+                    </div>
+               </div>
+          </div>
+
+          <div class="mySlides" data-aos="fade-up" data-aos-duration="1000">
+               <div class="story-image-div">
+                    <h4 class="">August 2020</h4>
+                    <div class="story-image">
+                         <img src="images/grand__kinght.png" alt="">
+                    </div>
+               </div>
+               <div class="story-content-div">
+                    <div class="story-content">
+                         <h3>Gymnazo</h2>
+                         <p>Ehance overall wellness and fitness of the spirit, mind and body. Join the 21 days full fitness program in August 2022</p>
+                         <button class="btn" data-aos="zoom-in" data-aos-duration="1000">Register</button>
+                    </div>
+               </div>
+          </div>
+
+          <div class="mySlides" data-aos="fade-up" data-aos-duration="1000">
+               <div class="story-image-div">
+                    <h4 class="">August 2020</h4>
+                    <div class="story-image">
+                         <img src="images/jason-goodman-6awfTPLGaCE-unsplash 2.svg" alt="">
+                    </div>
+               </div>
+               <div class="story-content-div">
+                    <div class="story-content">
+                         <h3>Gymnazo</h2>
+                         <p>Ehance overall wellness and fitness of the spirit, mind and body. Join the 21 days full fitness program in August 2022</p>
+                         <button class="btn" data-aos="zoom-in" data-aos-duration="1000">Register</button>
+                    </div>
+               </div>
+          </div>
+     </section>
+
+
+     <section class="footer-section">
+          <footer class="footer-div">
+               <div class="footer-cols">
+                    <ul class="initiative">
+                         <li>
+                              <a href = '#' class="thick">Initiative</a>
+                         </li>
+                         <li>
+                              <a href = '#' class="thin">Skill for Christ</a>
+                         </li>
+                         <li>
+                              <a href = '#' class="thin">E-Learning Portal</a>
+                         </li>
+                    </ul>
+                    <ul>
+                         <li>
+                              <a hrref = '#' class="thick">Home</a>
+                         </li>
+                         <li>
+                              <a hrref = '#' class="thick">Portfolio</a>
+                         </li>
+                         <li>
+                              <a hrref = '#' class="thick">LGN effects</a>
+                         </li>
+                         <li>
+                              <a hrref = '#' class="thick">Gallery</a>
+                         </li>
+                    </ul>
+                    <ul class="Logo-list">
+                         <li>
+                              <div class="logo-div">
+                                   <img src="images/LGN LOGO 2.png" alt="">
+                              </div>
+                         </li>
+                    </ul>
+                    <ul>
+                         <li>
+                              <a hrref = '#' class="thick">Contact Us</a>
+                         </li>
+                         <li>
+                              <a hrref = '#' class="thin">Loveworld Camp Ground, Asese, Ogun State, Nigeria. </a>
+                         </li>
+                         <li>
+                              <a hrref = '#' class="thin">+234 912 972 9660</a>
+                         </li>
+                         <li>
+                              <a hrref = '#' class="thin">blwgn@loveworld360.com</a>
+                         </li>
+                         <li>
+                              <a hrref = '#' class="thin">King’s Chat</a>
+                         </li>
+                    </ul>
+               </div>
+          </footer>
+     </section>
+
+     <script>
+          function googleTranslateElementInit() {
+             new google.translate.TranslateElement({
+                  pageLanguage: 'en',
+                  
+                  autoDisplay: false,
+                  layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+              }, 'google_translate_element');
+          }
+
+          var targetElement = document.getElementById("google_translate_element");
+          var yourContent = " "
+          targetElement.addEventListener("DOMNodeInserted", () => {
+               $(".goog-te-menu-value span:first").each(function (i, obj) {
+               if (obj.childNodes[1] && obj.childNodes[1].textContent == "Select language") {
+                    $(obj).html(yourContent);
+               }
+               });
+          });
+         </script>
+     <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+     <script>
+          AOS.init();
+     </script>
+</body>
+</html>

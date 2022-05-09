@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+     <head>
+          <meta charset="UTF-8">
+          <meta http-equiv="X-UA-Compatible" content="IE=edge">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+          <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+          <link rel="stylesheet" href="CSS/index.css">
+          <link rel="stylesheet" href="CSS/header.css">
+          <link rel="stylesheet" href="CSS/jumbotron.css">
+          <link rel="stylesheet" href="CSS/footer.css">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+          <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+          <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+          <script src="Js/carousel.js"></script>
+          <script src="./Js/dropdownMenu.js"></script>
+          <title>Home page</title>
+     </head>
+     <body>
+          <section>
+               <header class="home__header">
+                    <span class="home__bars" id="bars"><i class="fa fa-bars" aria-hidden="true"></i></span>
+                    <div class="home__logoDiv">
+                         <img src="images/LGN LOGO 2.png" alt="">
+                    </div>
+                    <div class="home__searchDiv">
+                         <div id="google_translate_element" class=" "></div>
+                         <span class="home__searchIconDiv"><i class="fa fa-search" aria-hidden="true"></i></span>
+                    </div>
+               </header>
+          </section>
+          <section class="dropdownMenu hide animate__animated animate__fadeInDown" id="dropDown">
+               <div class="dropdownMenu__header">
+                    <div class="dropdownMenu__logoDiv">
+                         <img src="images/LGN LOGO 2.png" alt="">
+                    </div>
+                    <span class="dropdownMenu__closeIconDiv" id="closeIcon"><i class="fa fa-times" aria-hidden="true"></i></span>
+               </div>
+               <div class="dropdownMenu__jumbotron" id="dropdownMenu__jumbotron">
+                    <div class="dropdownMenu__sideNav">
+                         <ul class="dropdownMenu__menu">
+                              <li class="dropdownMenu__menuList" id="aboutUs">About Us</li>
+                              <li class="dropdownMenu__menuList" id="programs">Programs</li>
+                              <li class="dropdownMenu__menuList" id="ourInitiatives">Our Initiative</li>
+                              <li class="dropdownMenu__menuList" id="contactUs">Contact Us</li>
+                              <li class="dropdownMenu__menuList" id="contribute">Contribute</li>
+                         </ul>
+                    </div>
+                    <div class="dropdownMenu__bar animate__animated animate__fadeInDown  hide" id="dropdownBars"></div>
+                    <div class="dropdownMenu__sideNav">
+                         <ul class="dropdownMenu__menu hide" id="aboutSubmenu">
+                              <li class="dropdownMenu__menuList animate__animated animate__fadeInUp"><a href="about.html">Who we are</a></li>
+                              <li class="dropdownMenu__menuList animate__animated animate__fadeInUp"><a href="about-pastor-chris.html">About pastor Chris</a></li>
+                         </ul>
+                         <ul class="dropdownMenu__menu hide" id="programSubmenu">
+                              <li class="dropdownMenu__menuList animate__animated animate__fadeInUp"><a href="programs.html">Our programs</a></li>
+                              <li class="dropdownMenu__menuList animate__animated animate__fadeInUp"><a href="#">Ministry Programs</a></li>
+                         </ul>
+                    </div>
+               </div>
+               <div class="dropdownMenu__footer"></div>
+          </section>
+          <section id="introJumbotron" class="home__jumbotronSection">
+               <div class="home__introJumbotron">
+                    <div class="home__contentDiv">
+                         <h2 class="" data-aos="fade-down" data-aos-duration="1000">Building Elite Performers</h2>
+                         <p data-aos="fade-down" data-aos-duration="1000">Become exceptional everyday by developing professional skills in the marketplace of life round the globe.</p>
+                         <button class="btn" data-aos="zoom-in" data-aos-duration="1000">I’m Interested</button>
+                    </div>
+               </div>
+          </section>
+          <section id="secondJumbotron" class="home__jumbotronSection">
+               <div class="home__secondJumbotron">
+                    <div class="home__contentDiv">
+                         <h3 class="" data-aos="fade-down" data-aos-duration="1000">Welcome to the network</h3>
+                         <p data-aos="fade-up" data-aos-duration="1000">We create networks to close the gap between our the Loveworld Campus Ministry and our church ministry. This is a network that offers value to its individual members by raising men and women to become exceptional in the professionalism of their work field. </p>
+                         <button class="btn" data-aos="zoom-in" data-aos-duration="1000">Join Us</button>
+                    </div>
+               </div>
+          </section>
+          <section id="upcomingPrograms" class="home__jumbotronSection pad">
+               <h1 class="upcomingProgram-header">Upcoming Programs</h1>
+               <div class="home__upComingPrograms">
+                    <div class="column1">
+                         <div class="imageDiv" data-aos="fade-up" data-aos-duration="1000">
+                              <img src="images/gymnazo.png" alt="">
+                         </div>
+                         <h1>Gymnazo</h1>
+                         <p>Ehance overall wellness and fitness of the spirit, mind and body. Join the 21 days full fitness program in August 2022</p>
+                         <button class="btn">Register</button>
+                    </div>
+                    <div class="column2">
+                         <div class="wrapper" data-aos="fade-up" data-aos-duration="1000">
+                              <div class="wrapper-content">
+                                   <h3>Skill For Christ</h3>
+                                   <p>Be more efficient in your online evangelism and learn how to work like a pro from your mobile devices.</p>
+                              </div>
+                              <div class="wapper-imageDiv">
+                                   <img src="images/jason-goodman-6awfTPLGaCE-unsplash 2.svg" alt="">
+                              </div>
+                         </div>
+                         <div class="wrapper" data-aos="fade-up" data-aos-duration="1000">
+                              <div class="wrapper-content">
+                                   <h3>Loveworld Graduate Finishing School</h3>
+                                   <p>Train under experts and mentors in an enivornment that combines excellence, divinity and quality programs.</p>
+                              </div>
+                              <div class="wapper-imageDiv">
+                                   <img src="images/jason-goodman-6awfTPLGaCE-unsplash 2.svg" alt="">
+                              </div>
+                         </div>
+                         <div class="wrapper" data-aos="fade-up" data-aos-duration="1000">
+                              <div class="wrapper-content">
+                                   <h3>Excelling in startup conference</h3>
+                                   <p>The network held an enterprenurial conference themed “Excelling in startup” which held on..........</p>
+                              </div>
+                              <div class="wapper-imageDiv">
+                                   <img src="images/jason-goodman-6awfTPLGaCE-unsplash 2.svg" alt="">
+                              </div>
+                         </div>
+                         <div class="wrapper" data-aos="fade-up" data-aos-duration="1000">
+                              <div class="wrapper-content">
+                                   <h3>Excelling in startup conference</h3>
+                                   <p>The network held an enterprenurial conference themed “Excelling in startup” which held on..........</p>
+                                   
+                              </div>
+                              <div class="wapper-imageDiv">
+                                   <img src="images/jason-goodman-6awfTPLGaCE-unsplash 2.svg" alt="">
+                              </div>
+                         </div>
+                    </div>
+               </div>
+          </section>
+          <section class="initiatives-section">
+               <div class="initiatives-div">
+                    <div class="upcoming__programs">
+                         <h1 class="upcoming__programs__header">Upcoming Ministry Program</h1>
+                         <div class="upcoming__programs__imgdiv" data-aos="zoom-in" data-aos-duration="1000">
+                              <img class="upcoming__programs__img" src="images/upcoming.png" alt=""/>
+                         </div>
+                    </div>
+               </div>
+          </section>
+          <section class="prayerthon__section">
+               <div class="prayerthon__div">
+                    <div class="prayerthon__column1">
+                         <h1>Global Pray-a-thon With Pastor Chris</h1>
+                         <p>Join millions of people praying together with Pastor Chris at the same time and for the same purpose; making global changes through the @PastorChrisLive Global Prayer Network</p>
+                         <button class="btn" data-aos="zoom-in" data-aos-duration="1000">Participate</button>
+                    </div>
+                    <div class="prayerthon__column2" data-aos="fade-up" data-aos-duration="1000">
+                         <img src="images/prayerthon.png" alt="">
+                    </div>
+               </div>
+          </section>
+          <section class="sub-story-section">
+               <h1 class="story-title">Our Impact Stories</h1>
+          </section>
+          <section class="main-story-section">
+               <!-- Slideshow container -->
+               <div class="slideshow-container">
+
+                    <!-- Full-width images with number and caption text -->
+                    <div class="mySlides fades">
+                         <div class="story-image-div">
+                              <h4 class="">September 2020</h4>
+                              <div class="story-image">
+                                   <img src="images/jason-goodman-6awfTPLGaCE-unsplash 2.svg" alt="">
+                              </div>
+                         </div>
+                         <div class="story-content-div">
+                              <div class="story-content">
+                                   <h3>Global Connect with Pastor Chris</h2>
+                                   <p>Be more efficient in your online evangelism and learn how to work like a pro from your mobile devices.</p>
+                                   <button class="btn" data-aos="zoom-in" data-aos-duration="1000">Read More</button>
+                              </div>
+                         </div>
+                    </div>
+               
+                    <div class="mySlides fades">
+                         <div class="story-image-div">
+                              <h4 class="">September 2020</h4>
+                              <div class="story-image">
+                                   <img src="images/jason-goodman-6awfTPLGaCE-unsplash 2.svg" alt="">
+                              </div>
+                         </div>
+                         <div class="story-content-div">
+                              <div class="story-content">
+                                   <h3>Global Connect with Pastor Chris</h2>
+                                   <p>Be more efficient in your online evangelism and learn how to work like a pro from your mobile devices.</p>
+                                   <button class="btn" data-aos="zoom-in" data-aos-duration="1000">Read More</button>
+                              </div>
+                         </div>
+                         
+                    </div>
+               
+                    <div class="mySlides fades">
+                         <div class="story-image-div">
+                              <h4 class="">September 2020</h4>
+                              <div class="story-image">
+                                   <img src="images/jason-goodman-6awfTPLGaCE-unsplash 2.svg" alt="">
+                              </div>
+                         </div>
+                         <div class="story-content-div">
+                              <div class="story-content">
+                                   <h3>Global Connect with Pastor Chris</h2>
+                                   <p>Be more efficient in your online evangelism and learn how to work like a pro from your mobile devices.</p>
+                                   <button class="btn" data-aos="zoom-in" data-aos-duration="1000">Read More</button>
+                              </div>
+                         </div>
+                    </div>
+               
+                   
+               </div>
+               <br>
+                <!-- Next and previous buttons -->
+                <div class="arrow-div">
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+               
+   
+          </section>
+          <section class="initiatives-section">
+               <div class="initiatives-div">
+                    <div class="initiatives-content">
+                         <h1 class="initiatives-content-header">Our Initiatives</h1>
+                         <p class="initiatives-content-text">The  Loveworld graduate network has several Initiatives and programs to help her graduates become elite performers in today’s society.</p>
+                         <div class="initiatives-img-div" data-aos="zoom-in" data-aos-duration="1000"></div>
+                         <button class="btn" data-aos="fade-up" data-aos-duration="1000">Know More</button>
+                    </div>
+               </div>
+          </section>
+          <section class="mentors-section">
+               <div class="mentors-div">
+                    <h1>Meet the Mentors</h1>
+                    <div class="mantors-category-div">
+                         <div class="mentor" data-aos="flip-left" data-aos-duration="1000">
+                              <h1 class="mentor-title">Director</h1>
+                              <h2 class="mentor-sub-title">Pastor Denise</h2>
+                              <p class="mentor-text">Read about his leadership skills</p>
+                         </div>
+                         <div class="mentor fades" data-aos="flip-right" data-aos-duration="1000">
+                              <h1 class="mentor-title">Director</h1>
+                              <h2 class="mentor-sub-title">Pastor Denise</h2>
+                              <p class="mentor-text">Read about his leadership skills</p>
+                         </div>
+                         <div class="mentor fades" data-aos="flip-right" data-aos-duration="1000">
+                              <h1 class="mentor-title">Director</h1>
+                              <h2 class="mentor-sub-title">Pastor Denise</h2>
+                              <p class="mentor-text">Read about his leadership skills</p>
+                         </div>
+                         <div class="mentor fades" data-aos="flip-left" data-aos-duration="1000">
+                              <h1 class="mentor-title">Director</h1>
+                              <h2 class="mentor-sub-title">Pastor Denise</h2>
+                              <p class="mentor-text">Read about his leadership skills</p>
+                         </div>
+                         
+                    </div>
+
+               </div>
+               <br>
+                <!-- Next and previous buttons -->
+                <div class="arrow-div2">
+                    <a class="prev" onclick="slideMentorsGallery(-1)">&#10094;</a>
+                    <a class="next" onclick="slideMentorsGallery(1)">&#10095;</a>
+                </div>
+          </section>
+          <section class="footer-section">
+               <footer class="footer-div">
+                    <div class="footer-cols">
+                         <ul class="initiative">
+                              <li>
+                                   <a href = '#' class="thick">Initiative</a>
+                              </li>
+                              <li>
+                                   <a href = '#' class="thin">Skill for Christ</a>
+                              </li>
+                              <li>
+                                   <a href = '#' class="thin">E-Learning Portal</a>
+                              </li>
+                         </ul>
+                         <ul>
+                              <li>
+                                   <a hrref = '#' class="thick">Home</a>
+                              </li>
+                              <li>
+                                   <a hrref = '#' class="thick">Portfolio</a>
+                              </li>
+                              <li>
+                                   <a hrref = '#' class="thick">LGN effects</a>
+                              </li>
+                              <li>
+                                   <a hrref = '#' class="thick">Gallery</a>
+                              </li>
+                         </ul>
+                         <ul class="Logo-list">
+                              <li>
+                                   <div class="logo-div" data-aos="fade-up" data-aos-duration="1000">
+                                        <img src="images/footer__image1.png" alt="">
+                                   </div>
+                              </li>
+                              <li>
+                                   <div class="logo-div" data-aos="fade-up" data-aos-duration="1000">
+                                        <img src="images/footer__image2.png" alt="">
+                                   </div>
+                              </li>
+                         </ul>
+                         <ul>
+                              <li>
+                                   <a hrref = '#' class="thick">Contact Us</a>
+                              </li>
+                              <li>
+                                   <a hrref = '#' class="thin">Loveworld Camp Ground, Asese, Ogun State, Nigeria. </a>
+                              </li>
+                              <li>
+                                   <a hrref = '#' class="thin">+234 912 972 9660</a>
+                              </li>
+                              <li>
+                                   <a hrref = '#' class="thin">blwgn@loveworld360.com</a>
+                              </li>
+                              <li>
+                                   <a hrref = '#' class="thin">King’s Chat</a>
+                              </li>
+                         </ul>
+                    </div>
+               </footer>
+          </section>
+          <script>
+               function googleTranslateElementInit() {
+                  new google.translate.TranslateElement({
+                       pageLanguage: 'en',
+                       
+                       autoDisplay: false,
+                       layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+                   }, 'google_translate_element');
+               }
+
+               var targetElement = document.getElementById("google_translate_element");
+               var yourContent = " "
+               targetElement.addEventListener("DOMNodeInserted", () => {
+                    $(".goog-te-menu-value span:first").each(function (i, obj) {
+                    if (obj.childNodes[1] && obj.childNodes[1].textContent == "Select language") {
+                         $(obj).html(yourContent);
+                    }
+                    });
+               });
+              </script>
+          <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+          <script>
+               AOS.init();
+          </script>
+     </body>
+</html>

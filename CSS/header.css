@@ -1,0 +1,153 @@
+.home__header{
+     background-color: #000000;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     width: 100%;
+     height: 120px;
+     padding: 0px 30px;
+}
+.home__bars{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     cursor: pointer;
+}
+.home__bars i{
+     font-size: 34px;
+     color: white;
+}
+.home__logoDiv{
+     width: 95px;
+     height: 94px;
+     border-radius: 50px;
+     /* background-color: #C4C4C4; */
+}
+.home__logoDiv img{
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+}
+.home__searchDiv{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding: 10px;
+}
+
+.home__searchIconDiv{
+     width: 47px;
+     height: 47px;
+     border: 1px solid #ffffff;
+     margin-left:10px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+.home__searchIconDiv i {
+     color: #ffffff;
+     font-size: 25px;
+     font-weight: 200;
+}
+
+.goog-te-banner-frame.skiptranslate {
+     display: none !important;
+}
+div#google_translate_element div.goog-te-gadget-simple a.goog-te-menu-value:hover {
+     text-decoration: none;
+}
+div#google_translate_element div.goog-te-gadget-simple a.goog-te-menu-value span[style="border-left: 1px solid rgb(187, 187, 187);"] {
+     display: none;
+ }
+ .goog-te-gadget-simple{
+     border: 1px thin rgb(175, 172, 172);
+     width: 230px;
+     height: 47px;
+     border-radius: 4px;
+     position: relative;
+     display: flex !important;
+     align-items: center !important;
+     justify-content: center !important;
+}
+.goog-te-gadget-icon{
+     display: none !important;
+     width: 0px !important;
+}
+
+ #goog-gt-tt{
+      display: none !important; top: 0px !important; 
+} 
+.goog-tooltip {
+     display: none !important;
+ }
+ .goog-tooltip:hover {
+     display: none !important;
+ }
+ .goog-text-highlight {
+     background-color: transparent !important;
+     border: none !important; 
+     box-shadow: none !important;
+ }
+ .goog-tooltip skiptranslate{
+      display: none !important; top: 0px !important;
+} 
+ .activity-root { 
+      display: hide !important;
+} 
+ .status-message {
+       display: hide !important;
+}
+ .started-activity-container {
+       display: hide !important;
+}
+
+
+/*Media Queries starts*/
+
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+     .home__header{
+          padding: 0px 20px;
+     }
+     .home__bars i{
+          font-size: 28px;
+     }
+     
+}
+
+/* small mobile :320px. */
+@media (max-width: 767px) {
+     .home__searchIconDiv{
+          display: none;
+     }
+     .home__logoDiv{
+          width: 40px;
+          height: 40px;
+     }
+     .goog-te-gadget-simple{
+          width: 141px;
+          height: 36px;
+     }
+     .home__header{
+          padding: 0px 20px;
+     }
+     
+}
+ 
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+     .home__searchIconDiv{
+          display: none;
+     }
+     .home__logoDiv{
+          width: 45px;
+          height: 45px;
+     }
+     .goog-te-gadget-simple{
+          width: 141px;
+          height: 36px;
+     }
+     .home__header{
+          padding: 0px 22px;
+     }
+}
