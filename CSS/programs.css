@@ -87,8 +87,10 @@
      padding: 80px 80px 40px;
 }
 .programs__tabsDiv{
-     display: flex;
-     justify-content: space-between;
+     display: grid;
+     gap: 10px;
+     grid-template-columns: repeat(4, minmax(0, 1fr));
+     grid-auto-flow:row dense;
 }
 .programs__tabs{
      display: flex;
@@ -97,7 +99,7 @@
      min-width: 189px;
      height: 49px;
      border-radius: 100px;
-     padding: 10px;
+     padding: 10px 15px;
      border: 1px solid black;
      cursor: pointer;
 }
@@ -114,7 +116,8 @@
 .programs__search{
      display: flex;
      justify-content: space-between;
-     width: 235px;
+     width: auto;
+     min-width: 235px;
      height: 49px;
      border: 1px solid black;
      padding: 10px;
@@ -255,9 +258,30 @@ a:hover{
      object-fit: cover;
 }
 /*Media Queries starts*/
-
+@media (min-width: 992px) and (max-width: 1200px) {
+     .progams__tabsSection{
+          padding: 50px 30px;
+     }
+     .programs__allPograms{
+          padding: 80px 50px 80px;
+     }
+}
 /* Tablet desktop :768px. */
 @media (min-width: 768px) and (max-width: 991px) {
+     .progams__tabsSection{
+          padding: 50px 20px;
+     }
+     .programs__tabsDiv{
+          grid-template-columns: repeat(3, minmax(0, 1fr));
+     }
+     .programs__tabs p{
+          font-weight: 400;
+          font-size: 16px;
+          line-height: normal;
+     }
+     .programs__allPograms{
+          padding: 50px 20px;
+     }
      .thick{
           font-size: 20px;
           line-height: 30px;
@@ -280,6 +304,53 @@ a:hover{
 }
 
 @media (max-width: 767px) {
+     .goog-te-gadget-simple{
+          width: 190px;
+          height: 47px;
+     }
+     .programs__searchIconDiv{
+          display: none;
+     }
+     .programs__logoDiv{
+          width: 60px;
+          height: 60px;
+          margin-left: 3px;
+     }
+     .programs__header{    
+          padding: 0px 10px;
+     }
+     .program__jumbotron{
+          height: 424px;
+     }
+     .program__details{
+          padding: 40% 10% 0px;
+     }
+     .program__details h1{
+          font-weight: 700;
+          font-size: 30px;
+          line-height: 45px;
+          color: #fff;
+     }
+     .progams__tabsSection{
+          padding: 50px 20px;
+     }
+     .programs__tabsDiv{
+          display: flex;
+          flex-direction: column;
+          /* align-items: center; */
+     }
+     .programs__allPograms{
+          padding: 50px 20px;
+     }
+     .mySlides {
+          flex-wrap: wrap;
+     }
+     .story-image-div, .story-content-div{
+          flex: 100%;
+     }
+     .story-content-div{
+          margin-left: 0px;
+     }
      .footer-cols{
           display: flex;
           flex-direction: column;
@@ -321,6 +392,54 @@ a:hover{
  
 /* Large Mobile :480px. */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
+     .goog-te-gadget-simple{
+          width: 190px;
+          height: 47px;
+     }
+     .programs__searchIconDiv{
+          display: none;
+     }
+     .programs__logoDiv{
+          width: 60px;
+          height: 60px;
+          margin-left: 3px;
+     }
+     .programs__header{    
+          padding: 0px 30px;
+     }
+
+     .program__jumbotron{
+          height: 424px;
+     }
+     .program__details{
+          padding: 40% 10% 0px;
+     }
+     .program__details h1{
+          font-weight: 700;
+          font-size: 30px;
+          line-height: 45px;
+          color: #fff;
+     }
+     .progams__tabsSection{
+          padding: 50px 20px;
+     }
+     .programs__tabsDiv{
+          display: flex;
+          flex-direction: column;
+          /* align-items: center; */
+     }
+     .programs__allPograms{
+          padding: 50px 20px;
+     }
+     .mySlides {
+          flex-wrap: wrap;
+     }
+     .story-image-div, .story-content-div{
+          flex: 100%;
+     }
+     .story-content-div{
+          margin-left: 0px;
+     }
      .footer-cols{
           display: flex;
           flex-direction: column;
@@ -344,7 +463,7 @@ a:hover{
           width: 142px;
           height: 142px;          
           border-radius: 50%;
-          background: #C4C4C4;
+          /* background: #C4C4C4; */
      }
      .initiative{
           display: none !important;

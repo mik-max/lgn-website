@@ -392,8 +392,9 @@
      background: #C4C4C4;
 }
 .upcoming__programs__imgdiv{
-     width: 546px;
-     height: 336px;
+     max-width: 546px;
+     width: 100%;
+     max-height: 336px;
      margin-top: 20px;
      box-shadow: 0px 10px 43px 0px rgba(0, 0, 0, 0.3);
 }
@@ -565,7 +566,7 @@
 /* small mobile :320px. */
 @media (max-width: 767px) {
      .home__introJumbotron{
-          height: 607px;
+          height: 70vh;
           background-position: center;
      }
 
@@ -594,7 +595,7 @@
           font-size: 12px;
           line-height: 18px;
      }
-     .pad, .main-story-section, .initiatives-section, .mentors-section{
+     .pad, .main-story-section, .initiatives-section, .mentors-section, .prayerthon__section{
           padding: 50px 20px;
      }
      .upcomingProgram-header{
@@ -693,7 +694,7 @@
           display: flex;
           margin-top: 20px;
      }
-     .initiatives-content-header{
+     .initiatives-content-header, .upcoming__programs__header{
           font-size: 24px;
           line-height: 36px;
      }
@@ -736,6 +737,23 @@
           height: 30px;
           margin: 0px 10px;
      }
+     .prayerthon__div{
+          flex-direction: column-reverse;
+     }
+     .prayerthon__column1, .prayerthon__column2{
+          width: 100%;
+          margin-bottom: 15px;
+          padding: 0px ;
+     }
+
+     .prayerthon__column1 h1{
+          font-size: 24px;
+          line-height: 36px;
+     }
+     .prayerthon__column1 p{
+          font-size: 12px;
+          line-height: 18px;
+     }
      
 }
  
@@ -743,7 +761,7 @@
 @media only screen and (min-width: 480px) and (max-width: 767px) {
 
      .home__introJumbotron{
-          height: 607px;
+          height: 70vh;
           background-position: center;
      }
      .home__contentDiv h2{
@@ -771,7 +789,7 @@
           font-size: 12px;
           line-height: 18px;
      }
-     .pad, .main-story-section, .initiatives-section, .mentors-section{
+     .pad, .main-story-section, .initiatives-section, .mentors-section, .prayerthon__section{
           padding: 50px 20px;
      }
      .upcomingProgram-header{
@@ -866,7 +884,7 @@
           display: flex;
           margin-top: 20px;
      }
-     .initiatives-content-header{
+     .initiatives-content-header, .upcoming__programs__header{
           font-size: 24px;
           line-height: 36px;
      }
@@ -902,4 +920,21 @@
           height: 30px;
           margin: 0px 10px;
      }
+     .prayerthon__div{
+          flex-direction: column-reverse;
+     }
+     .prayerthon__column1, .prayerthon__column2{
+          width: 100%;
+          margin-bottom: 15px;
+          padding: 0px;
+     }
+     .prayerthon__column1 h1{
+          font-size: 24px;
+          line-height: 36px;
+     }
+     .prayerthon__column1 p{
+          font-size: 12px;
+          line-height: 18px;
+     }
+     
 }

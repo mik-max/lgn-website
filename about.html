@@ -16,6 +16,7 @@
      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
      <script src="./Js/dropdownMenu.js"></script>
+     <script src="./Js/index.js"></script>
      <title>About Us</title>
 </head>
 <body>
@@ -31,6 +32,11 @@
                </div>
           </header>
      </section>
+     <div class="float-btn border rounded-circle">
+          <a href="#introJumbotron" id="angleUpLink">
+               <span class="angle-up"><i class="fa fa-angle-up"></i></span>
+          </a>
+     </div>
      <section class="dropdownMenu hide animate__animated animate__fadeInDown" id="dropDown">
           <div class="dropdownMenu__header">
                <div class="dropdownMenu__logoDiv">
@@ -62,21 +68,21 @@
           </div>
           <div class="dropdownMenu__footer"></div>
      </section>
-     <section class="about__details">
+     <section class="about__details" id="introJumbotron">
           <div class="about__container">
                <div class="about__column1">
                     <h1>About Us</h1>
                     <p>It is a network that will offer value to its individual members by exposing them to carry out entrepreneurial opportunities within their professional work fields across the globe.</p>
                </div>
                <div class="about__space"></div><!--For space-->
-               <div class="about__column2" data-aos="fade-left" data-aos-duration="1000">
+               <div class="about__column2" data-aos="fade-up" data-aos-duration="1000">
                     <img src="./images/about-us.png" alt="">
                </div>
           </div>
      </section>
      <section class="about__details">
-          <div class="about__container">
-               <div class="about__column2" data-aos="fade-right" data-aos-duration="1000">
+          <div class="about__container reverse">
+               <div class="about__column2" data-aos="fade-down" data-aos-duration="1000">
                     <img src="./images/our-mission.png" alt="">
                </div>
                <div class="about__space"></div><!--For space-->
@@ -96,7 +102,7 @@
                     <a href="#">Learn more</a>
                </div>
                <div class="about__space"></div><!--For space-->
-               <div class="about__column2" data-aos="fade-left" data-aos-duration="1000">
+               <div class="about__column2" data-aos="fade-up" data-aos-duration="1000">
                     <img src="./images/our-director.png" alt="">
                </div>
           </div>
