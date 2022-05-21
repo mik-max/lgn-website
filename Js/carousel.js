@@ -47,8 +47,8 @@ function showSlides(n) {
 //      showSlides(slideIndex += n);
 
 //    }
-function slideMentorsGallery(n){
-     showSecondSlides(slideIndex +=n);
+function plusSlides(n){
+     showSlides(slideIndex +=n);
 }
    
    // Thumbnail image controls
