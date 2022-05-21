@@ -37,7 +37,7 @@
 }
 .home__contentDiv h2 {
      font-family: 'Poppins';
-     font-weight: 700;
+     font-weight: 900;
      font-size: 64px;
      line-height: 96px;
      text-align: center;
@@ -46,7 +46,7 @@
 .home__contentDiv p {
      font-family: 'Poppins';
      font-weight: 400;
-     font-size: 24px;
+     font-size: 16px;
      line-height: 36px;
      text-align: center;
      color: #FFFFFF;
@@ -55,10 +55,8 @@
      width: 271px;
      height: 80px;
      padding: 10px;
-     
-
      font-weight: 700;
-     font-size: 24px;
+     font-size: 16px;
      line-height: 36px;
 }
 .home__contentDiv button:focus{
@@ -83,14 +81,14 @@
 .home__secondJumbotron .home__contentDiv p {
      font-family: 'Poppins';
      font-weight: 400;
-     font-size: 22px;
+     font-size: 16px;
      line-height: 33px;
      text-align: center;
 
      color: #FFFFFF;
 }
 .pad{
-     padding: 200px 100px 80px;
+     padding: 60px 100px 80px;
 }
 .home__upComingPrograms{
      display: flex;
@@ -100,10 +98,10 @@
 .upcomingProgram-header{
      font-family: 'Poppins';
      font-weight: 700;
-     font-size: 48px;
+     font-size: 38px;
      line-height: 72px;
      color: #000000;
-     margin-bottom: 10px;
+     margin-bottom: 30px;
 }
 .column1{
      flex: 40%;
@@ -113,11 +111,12 @@
 .column1 h1{
      font-family: 'Poppins';
      font-weight: 700;
-     font-size: 45px;
+     font-size: 35px;
      line-height: 68px;
      display: flex;
      align-items: center;
      color: #000000;
+     margin-top: 30px;
 }
 .column1 h4{
      font-family: 'Poppins';
@@ -129,7 +128,7 @@
 .column1 p {
      font-family: 'Poppins';
      font-weight: 400;
-     font-size: 22px;
+     font-size: 16px;
      line-height: 33px;
      display: flex;
      align-items: center;
@@ -140,7 +139,7 @@
      width: 190px;
      height: 64px;
      font-weight: 700;
-     font-size: 24px;
+     font-size: 16px;
      line-height: 36px;
 }
 .column2{
@@ -174,14 +173,19 @@
 .wrapper-content h3{
      font-family: 'Poppins';
      font-weight: 700;
-     font-size: 24px;
+     font-size: 18px;
      line-height: 36px;
      color: #000000;
+     cursor: pointer;
+}
+
+.wrapper-content h3:hover{
+    text-decoration: underline;
 }
 .wrapper-content p{
      font-family: 'Poppins';
      font-weight: 400;
-     font-size: 20px;
+     font-size: 16px;
      line-height: 30px;
      display: flex;
      align-items: center;
@@ -199,7 +203,7 @@
 }
 .sub-story-section{
      background-color: #000000;
-     padding: 100px 100px 20px;
+     padding: 50px 100px 20px;
      border-bottom: 4px solid #FFFFFF;
 }
 .story-title{
@@ -211,7 +215,7 @@
 }
 .main-story-section{
      background-color: #000000;
-     padding: 100px 100px 80px;
+     padding: 50px 100px 80px;
 }
 .story-image-div{
      flex: 55%;
@@ -258,7 +262,7 @@
 .story-content p{
      font-family: 'Poppins';
      font-weight: 400;
-     font-size: 22px;
+     font-size: 16px;
      line-height: 33px;
      color: #FFFFFF;
 }
@@ -291,25 +295,25 @@
      display: flex;
      justify-content: center;
      align-items: center;
-     margin-top: 80px;
+     margin-top: 40px;
    }
    .arrow-div2{
-     display: none;
+     display: flex;
      justify-content: center;
      align-items: center;
-     margin-top: 80px;
+     margin-top: 40px;
    }
    .prev, .next {
      cursor: pointer;
      color: white;
      font-weight: bold;
-     font-size: 45px;
+     font-size: 25px;
      transition: 0.6s ease;
      user-select: none;
      background-color: transparent;
      border: 1px solid #FFFFFF;
-     width: 80px;
-     height: 80px;
+     width: 50px;
+     height: 50px;
      text-align: center;
      margin: 0px 22px;
    }
@@ -318,6 +322,7 @@
    /* On hover, add a black background color with a little bit see-through */
    .prev:hover, .next:hover {
      background-color: rgba(0,0,0,0.8);
+     color: #800080;
    }
    
    
@@ -379,7 +384,7 @@
 .initiatives-content-text{
      font-family: 'Poppins';
      font-weight: 400;
-     font-size: 22px;
+     font-size: 16px;
      line-height: 33px;
      text-align: center;   
      color: #000000;
@@ -425,7 +430,7 @@
 }
 .prayerthon__column1 p{
      font-weight: 400;
-     font-size: 19px;
+     font-size: 16px;
      line-height: 29px;
      color: #FFFFFF;
      
@@ -445,7 +450,7 @@
 }
 .mentors-section{
      background-color: #000000;
-     padding: 100px 100px 80px;
+     padding: 60px 100px 60px;
 }
 .mentors-div{
      display: flex;
@@ -455,20 +460,20 @@
 .mentors-div h1{
      font-family: 'Poppins';
      font-weight: 700;
-     font-size: 48px;
+     font-size: 38px;
      line-height: 72px;
      color: #FFFFFF;
      
 }
 .mantors-category-div{
      display: grid;
-     gap: 80px 20px;
-     grid-template-columns: repeat(2, minmax(0, 1fr));
+     gap: 40px;
+     grid-template-columns: repeat(3, minmax(0, 1fr));
      grid-auto-flow:row dense;
-     margin-top: 80px;
+     margin-top: 40px;
 }
 .mentor{
-     height: 673px;
+     height: 500px;
      border: 1px solid white;
      padding: 10px 25px;
      background-image: linear-gradient(360deg, #000000 7.7%, rgba(0, 0, 0, 0.2) 64.71%), url("../images/mentors.png");
@@ -480,31 +485,66 @@
 }
 .mentor-title{
      font-family: 'Poppins';
-     font-weight: 700;
-     font-size: 36px;
+     font-weight: 900;
+     font-size: 26px;
      line-height: 54px;
      color: #FFFFFF;
 }
 .mentor-sub-title{
      font-family: 'Poppins';
-     font-weight: 700;
-     font-size: 28px;
+     font-weight: 900;
+     font-size: 20px;
      line-height: 42px;
      color: #FFFFFF;
+}
+.mentor:hover .mentor-title, .mentor:hover .mentor-sub-title, .mentor-text:hover{
+     text-decoration: underline;
 }
 .mentor-text{
      font-family: 'Poppins';
      font-weight: 400;
-     font-size: 20px;
+     font-size: 16px;
      line-height: 30px;
      color: #FFFFFF;
+     cursor: pointer;
 }
+
+.mentors__details{
+     height: 100%;
+     color: white !important;
+     height: 250px;
+     overflow-y: scroll;
+     padding: 10px 0px;
+     display: none;
+     margin-bottom: 10px;
+}
+.mentors__details button{
+     width: 188px;
+     height: 62px;
+}
+.mentor:hover .mentors__details{
+     display: block;
+}
+.mentors__details::-webkit-scrollbar{
+     display: none;
+}
+.mentors__details p {
+     color: white;
+     font-size: 18px;
+     line-height: 32px;
+     font-weight: 500;
+}
+.carousel-inner img {
+     width: 100%;
+     height: 100%;
+   }
+
 
 
 /*Media Queries starts*/
 
 /* Tablet desktop :768px. */
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 768px) and (max-width: 1024px) {
      .home__introJumbotron{
           background-position: center;
      }
@@ -513,7 +553,6 @@
           line-height: 60px;
      }
      .column1 p{
-          font-size: 16px;
           line-height: 24px;
      }
      .wrapper-content h3{
@@ -521,7 +560,6 @@
           line-height: 30px;
      }
      .wrapper-content p{
-          font-size: 16px;
           line-height: 24px;
      }
      .story-image-div h4{
@@ -537,7 +575,6 @@
           line-height: 45px;
      }
      .story-content p{
-          font-size: 18px;
           line-height: 27px;
      }
      .prev, .next {
@@ -546,15 +583,26 @@
           height: 60px;
           margin: 0px 15px;
      }
+     .mentors-section{
+          background-color: #000000;
+          padding: 60px 20px;
+     }
+     .mantors-category-div{
+          display: grid;
+          gap: 20px;
+          grid-template-columns: repeat(3, minmax(0, 1fr));
+          grid-auto-flow:row dense;
+          margin-top: 40px;
+     }
      .mentor{
           height: 376px;
      }
      .mentor-title{
-          font-size: 20px;
+          font-size: 18px;
           line-height: 30px;
      }
      .mentor-sub-title{
-          font-size: 20px;
+          font-size: 17px;
           line-height: 30px;
      }
      .mentor-text{
@@ -691,8 +739,7 @@
           display: none;
      }
      .arrow-div2{
-          display: flex;
-          margin-top: 20px;
+          display: none;
      }
      .initiatives-content-header, .upcoming__programs__header{
           font-size: 24px;
@@ -718,9 +765,21 @@
           display: flex;
           flex-direction: column;
           margin-top: 40px;
+          height: 100%;
+     }
+
+     .carousel-inner{
+          display: flex !important;
+          flex-direction: column !important;
+          overflow-y: scroll !important;
+          height: 500px !important;
+     }
+     .carousel-item{
+          display: block !important;
      }
      .mentor{
           height: 376px;
+          width: 100%;
      }
      .mentor h1, .mentor h2{
           font-size: 20px;
@@ -881,7 +940,7 @@
           display: none;
      }
      .arrow-div2{
-          display: flex;
+          display: none;
           margin-top: 20px;
      }
      .initiatives-content-header, .upcoming__programs__header{
@@ -896,6 +955,21 @@
      .initiatives-img-div{
           width: 100%;
           height: 183px;
+     }
+     .mantors-category-div{
+          display: flex;
+          flex-direction: column;
+          margin-top: 40px;
+     } 
+
+     .carousel-inner{
+          display: flex !important;
+          flex-direction: column !important;
+          overflow-y: scroll !important;
+          height: 500px !important;
+     }
+     .carousel-item{
+          display: block !important;
      }
      .mentors-div h1{
           font-size: 24px;

@@ -79,7 +79,7 @@
 }
 .program__details p{
      font-weight: 400;
-     font-size: 19px;
+     font-size: 16px;
      line-height: 28px;
      color: #fff;
 }
@@ -105,7 +105,7 @@
 }
 .programs__tabs p{
      font-weight: 400;
-     font-size: 19px;
+     font-size: 16px;
      line-height: 28px;
 }
 .active__tabs{
@@ -169,7 +169,7 @@
 }
 .story-content p{
      font-weight: 400;
-     font-size: 22px;
+     font-size: 16px;
      line-height: 33px;
      color: #383737;
 }
@@ -228,7 +228,7 @@ a:hover{
 .thick{
      font-family: 'Poppins';
      font-weight: 700;
-     font-size: 24px;
+     font-size: 16px;
      line-height: 36px;
      color: #000;
      text-align: center;
@@ -237,7 +237,7 @@ a:hover{
 .thin{
      font-family: 'Poppins';
      font-weight: 500;
-     font-size: 22px;
+     font-size: 16px;
      line-height: 33px;
      color: #000;
      text-align: center;
@@ -378,7 +378,7 @@ a:hover{
           display: none !important;
      }
      .thick{
-          font-size: 18px;
+          font-size: 16px;
           line-height: 27px;
           text-align: center;
      }
@@ -469,7 +469,7 @@ a:hover{
           display: none !important;
      }
      .thick{
-          font-size: 18px;
+          font-size: 16px;
           line-height: 27px;
           text-align: center;
      }

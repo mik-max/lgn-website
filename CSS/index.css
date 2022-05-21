@@ -105,7 +105,7 @@ body{
      font-size: 28px;
      line-height: 42px;
      color: #FFFFFF;
-     margin: 40px 0px;
+     margin: 20px 0px;
      cursor: pointer;
      width: fit-content;
 }
@@ -137,35 +137,97 @@ body{
      position: fixed;
      top:90vh;
      left:94vw;
-     height: 30px;
-     width: 30px;
-     background-color: rgba(0, 153, 255, 0.925);
+     height: 50px;
+     width: 50px;
+     background-color: #800080;
+     border: 1px solid #800080;
      text-align: center;
      z-index: 1;
-     animation: animate 1s ease-in-out infinite;
      animation-duration: 60s;
      display: none;
      border-radius: 50%;
 }
-@keyframes animate {
-     0%{
-          background-color: rgba(0, 153, 255, 0.925);
-     }
-     20%{
-          background-color: #C28B00;
-     }
-     40%{
-          background-color: #0076D3;
-     }
-     60%{
-          background-color: #a77801;
-     }
-     80%{ background-color: #0268b6;}
-     100%{
-          background-color: #835e01;
-     }
-}
 #angleUpLink{
      color: white;
-     font-size: 18px;
+     font-size: 30px;
 }
+
+@media (min-width: 768px) and (max-width: 991px) {
+     .dropdownMenu__sideNav{
+          height: 100%;
+          overflow: auto;
+          width: 49.4%;
+          padding: 15px 25px;
+     }
+     .float-btn{
+          top:80vh;
+          left:90vw;
+          height: 40px;
+          width: 40px;
+
+     }
+}
+
+@media (max-width: 767px) {
+     .dropdownMenu__sideNav{
+          height: 100%;
+          overflow: auto;
+          width: 49.4%;
+          padding: 15px 10px;
+     }
+
+     .dropdownMenu__menuList{
+          font-weight: 500;
+          font-size: 15px;
+          margin: 5px 0px;
+     }
+     .dropdownMenu__closeIconDiv i {
+          color: #ffffff;
+          font-size: 22px;
+          font-weight: 200;
+     }
+     .float-btn{
+          top:80vh;
+          left:84vw;
+          height: 40px;
+          width: 40px;
+
+     }
+
+     #angleUpLink{
+          color: white;
+          font-size: 25px;
+     }
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+     .dropdownMenu__sideNav{
+          height: 100%;
+          overflow: auto;
+          width: 49.4%;
+          padding: 15px 10px;
+     }
+
+     .dropdownMenu__menuList{
+          font-weight: 500;
+          font-size: 15px;
+          margin: 5px 0px;
+     }
+     .dropdownMenu__closeIconDiv i {
+          color: #ffffff;
+          font-size: 22px;
+          font-weight: 200;
+     }
+
+     .float-btn{
+          top:80vh;
+          left:84vw;
+          height: 40px;
+          width: 40px;
+
+     }
+     #angleUpLink{
+          color: white;
+          font-size: 25px;
+     }
+}
+     
