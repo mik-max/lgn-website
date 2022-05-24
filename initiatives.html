@@ -9,26 +9,27 @@
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
      <link rel="stylesheet" href="./CSS/index.css">
-     <link rel="stylesheet" href="./CSS/about.css">
      <link rel="stylesheet" href="./CSS/header.css">
+     <link rel="stylesheet" href="./CSS/footer.css">
+     <link rel="stylesheet" href="./CSS/initiatives.css">
      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-     <script src="./Js/dropdownMenu.js"></script>
      <script src="./Js/index.js"></script>
-     <title>About Us</title>
+     <script src="./Js/dropdownMenu.js"></script>
+     <title>Document</title>
 </head>
 <body>
      <section>
-          <header class="about__header">
-               <span class="about__bars" id="bars"><i class="fa fa-bars" aria-hidden="true"></i></span>
-               <!-- <div class="about__logoDiv">
+          <header class="initiatives__header">
+               <span class="initiatives__bars" id="bars"><i class="fa fa-bars" aria-hidden="true"></i></span>
+               <div class="initiatives__logoDiv">
                     <img src="images/LGN LOGO 2.png" alt="">
-               </div> -->
-               <div class="about__searchDiv">
+               </div>
+               <div class="initiatives__searchDiv">
                     <div id="google_translate_element" class=" "></div>
-                    <span class="about__searchIconDiv"><i class="fa fa-search" aria-hidden="true"></i></span>
+                    <span class="initiatives__searchIconDiv"><i class="fa fa-search" aria-hidden="true"></i></span>
                </div>
           </header>
      </section>
@@ -37,7 +38,7 @@
                <span class="angle-up"><i class="fa fa-angle-up"></i></span>
           </a>
      </div>
-     <section class="dropdownMenu hide animate__animated animate__fadeInDown" id="dropDown">
+     <section class="dropdownMenu hide animate__animated animate__fadeInDown" id="dropDown" >
           <div class="dropdownMenu__header">
                <div class="dropdownMenu__logoDiv">
                     <img src="images/LGN LOGO 2.png" alt="">
@@ -47,10 +48,10 @@
           <div class="dropdownMenu__jumbotron" id="dropdownMenu__jumbotron">
                <div class="dropdownMenu__sideNav">
                     <ul class="dropdownMenu__menu">
-                         <li class="dropdownMenu__menuList" ><a href="index.html">Home</a></li>
+                         <li class="dropdownMenu__menuList"><a href="index.html">Home</a></li>
                          <li class="dropdownMenu__menuList" id="aboutUs">About Us</li>
-                         <li class="dropdownMenu__menuList" id="programs">Programs</li>
-                         <li class="dropdownMenu__menuList" id="ourInitiatives"><a href="initiatives.html">Our Initiative</a></li>
+                         <li class="dropdownMenu__menuList" id="initiatives"><a href="initiatives.html">initiatives</a></li>
+                         <li class="dropdownMenu__menuList" id="ourInitiatives">Our Initiative</li>
                          <li class="dropdownMenu__menuList" id="contactUs">Contact Us</li>
                          <li class="dropdownMenu__menuList" id="contribute">Contribute</li>
                     </ul>
@@ -61,94 +62,111 @@
                          <li class="dropdownMenu__menuList animate__animated animate__fadeInUp"><a href="about.html">Who we are</a></li>
                          <li class="dropdownMenu__menuList animate__animated animate__fadeInUp"><a href="about-pastor-chris.html">About Pastor Chris</a></li>
                     </ul>
-                    <ul class="dropdownMenu__menu hide" id="programSubmenu">
-                         <li class="dropdownMenu__menuList animate__animated animate__fadeInUp"><a href="programs.html">Our programs</a></li>
-                         <li class="dropdownMenu__menuList animate__animated animate__fadeInUp"><a href="#">Ministry Programs</a></li>
+                    <ul class="dropdownMenu__menu hide" id="initiativeSubmenu">
+                         <li class="dropdownMenu__menuList animate__animated animate__fadeInUp"><a href="initiatives.html">Our initiatives</a></li>
+                         <li class="dropdownMenu__menuList animate__animated animate__fadeInUp"><a href="#">Ministry initiatives</a></li>
                     </ul>
                </div>
           </div>
           <div class="dropdownMenu__footer"></div>
      </section>
-     <section class="about__details" id="introJumbotron">
-          <div class="about__container">
-               <div class="about__column1">
-                    <h1>About Us</h1>
-                    <p>It is a network that will offer value to its individual members by exposing them to carry out entrepreneurial opportunities within their professional work fields across the globe.</p>
-               </div>
-               <div class="about__space"></div><!--For space-->
-               <div class="about__column2" data-aos="fade-up" data-aos-duration="1000">
-                    <img src="./images/about-us.png" alt="">
+     <section class="initiative__section" id="introJumbotron">
+          <div class="initiative__jumbotron">
+               <div class="initiative__details">
+                    <h1>Discover Our Initiatives</h1>
+                    <p>Our initiatives serves as a tool to build you up in becoming elite performers.</p>
                </div>
           </div>
      </section>
-     <section class="about__details">
-          <div class="about__container reverse">
-               <div class="about__column2" data-aos="fade-down" data-aos-duration="1000">
-                    <img src="./images/our-mission.png" alt="">
+     
+     <section class="initiatives__allPograms">
+          <div class="initiative__category">
+               <div class="initiatives__group">
+                    <div class="story-image">
+                         <img src="images/MENTORS 1.png" alt="">
+                    </div>
+                    <h3>Mentors hub</h3>
                </div>
-               <div class="about__space"></div><!--For space-->
-               <div class="about__column1">
-                    <h1>Our Mission</h1>
-                    <p>To help integrate the Campus Ministry graduates into the church ministry through various transition programs and job specific trainings to prepare and set these graduates for a more brighter future.</p>
+               <div class="initiatives__group">
+                    <div class="story-image">
+                         <img src="images/LGFS 1.png" alt="">
+                    </div>
+                    <h3>Loveworld Graduate Finishing School</h3>
                </div>
+               <div class="initiatives__group">
+                    <div class="story-image">
+                         <img src="images/Leadership 1.png" alt="">
+                    </div>
+                    <h3>Leadership Creation & Training</h3>
+               </div>
+               <div class="initiatives__group">
+                    <div class="story-image">
+                         <img src="images/MIL LOGO PNG 1.png" alt="">
+                    </div>
+                    <h3>Made In Loveworld</h3>
+               </div>
+               <div class="initiatives__group">
+                    <div class="story-image">
+                         <img src="images/Alumini 1.png" alt="">
+                    </div>
+                    <h3>BLW Alumni Network</h3>
+               </div>
+               <div class="initiatives__group">
+                    <div class="story-image">
+                         <img src="images/CLW 1.png" alt="">
+                    </div>
+                    <h3>Corper’s Loveworld</h3>
+               </div>
+               
           </div>
+
      </section>
-     <section class="about__details">
-          <div class="about__container">
-               <div class="about__column1">
-                    <h1>Meet our Director</h1>
-                    <p>Passionate, Vibrant & Positively-Contagious are a few words to describe Pastor Doyin-Dennis          Oshideko, PDD, as he is fondly called.
-                         A dynamic minister of the gospel, particularly dedicated to youths. He has ministered to youths in different parts of Nigeria and beyond.
-                    </p>
-                    <a href="#">Learn more</a>
-               </div>
-               <div class="about__space"></div><!--For space-->
-               <div class="about__column2" data-aos="fade-up" data-aos-duration="1000">
-                    <img src="./images/our-director.png" alt="">
-               </div>
-          </div>
-     </section>
-     <section class="about__details">
-          <div class="about__participate">
-               <h1>Join the network today</h1>
-               <div class="about__participateImgDiv" data-aos="zoom-in" data-aos-duration="1000">
-                    <img src="./images/jumbotron3.png" alt="">
-               </div>
-               <button class="btn" data-aos="fade-up " data-aos-duration="1000">Register</button>
-          </div>
-     </section>
+
+
      <section class="footer-section">
           <footer class="footer-div">
                <div class="footer-cols">
                     <ul class="initiative">
                          <li>
-                              <a href = '#' class="thick">Initiative</a>
-                         </li>
-                         <li>
-                              <a href = '#' class="thin">Skill for Christ</a>
-                         </li>
-                         <li>
                               <a href = '#' class="thin">E-Learning Portal</a>
                          </li>
+                         <li>
+                              <a href = '#' class="thin">Corper’s Loveworld</a>
+                         </li>
+                         <li>
+                              <a href = '#' class="thin">BLW ALumni Online forum</a>
+                         </li>
+                         
                     </ul>
                     <ul>
+                         <li>
+                              <a hrref = '#' class="thick">Quick Links</a>
+                         </li>
                          <li>
                               <a hrref = '#' class="thick">Home</a>
                          </li>
                          <li>
-                              <a hrref = '#' class="thick">Portfolio</a>
+                              <a hrref = '#' class="thick">About Us </a>
                          </li>
                          <li>
-                              <a hrref = '#' class="thick">LGN effects</a>
+                              <a hrref = '#' class="thick">About Pastor Chris</a>
                          </li>
                          <li>
-                              <a hrref = '#' class="thick">Gallery</a>
+                              <a hrref = '#' class="thick">Impact Stories</a>
+                         </li>
+                         <li>
+                              <a hrref = '#' class="thick">Contibute</a>
                          </li>
                     </ul>
                     <ul class="Logo-list">
                          <li>
-                              <div class="logo-div">
-                                   <img src="images/LGN LOGO 2.png" alt="">
+                              <div class="logo-div" data-aos="fade-up" data-aos-duration="1000">
+                                   <img src="images/footer__image1.png" alt="">
+                              </div>
+                         </li>
+                         <li>
+                              <div class="logo-div" data-aos="fade-up" data-aos-duration="1000">
+                                   <img src="images/footer__image2.png" alt="">
                               </div>
                          </li>
                     </ul>
@@ -172,6 +190,7 @@
                </div>
           </footer>
      </section>
+
      <script>
           function googleTranslateElementInit() {
              new google.translate.TranslateElement({

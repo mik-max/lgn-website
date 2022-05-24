@@ -1,0 +1,223 @@
+.initiatives__header{
+     background-color: #fff;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     width: 100%;
+     height: 120px;
+     padding: 0px 30px;
+     border-bottom: 1px solid black;
+}
+.initiatives__bars{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     cursor: pointer;
+}
+.initiatives__bars i{
+     font-size: 34px;
+     color: black;
+}
+.initiatives__logoDiv{
+     width: 95px;
+     height: 94px;
+     border-radius: 50px;
+     /* background-color: #C4C4C4; */
+}
+.initiatives__logoDiv img{
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+}
+.initiatives__searchDiv{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding: 10px;
+}
+
+.initiatives__searchIconDiv{
+     width: 47px;
+     height: 47px;
+     border: 1px solid black;
+     margin-left:10px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+.goog-te-gadget-simple{
+     border: 1px solid black !important;
+     width: 230px;
+     height: 47px;
+     border-radius: 4px;
+     position: relative;
+     display: flex !important;
+     align-items: center !important;
+     justify-content: center !important;
+}
+.initiatives__searchIconDiv i {
+     color: black;
+     font-size: 25px;
+     font-weight: 200;
+}
+.initiative__jumbotron{
+     width: 100%;
+     height: 524px;
+     background-image: url("../images/jumbotron5.png");
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+.initiative__details{
+    padding: 20% 5% 0px;
+    max-width: 950px;
+}
+.initiative__details h1{
+     font-weight: 900;
+     font-size: 64px;
+     line-height: 96px;
+     color: #fff;
+}
+.initiative__details p{
+     font-weight: 500;
+     font-size: 16px;
+     line-height: 28px;
+     color: #fff;
+}
+
+
+
+.initiatives__allPograms{
+     padding: 100px 100px 80px;
+}
+
+.initiative__category{
+     display: grid;
+     gap: 30px;
+     grid-template-columns: repeat(3, minmax(0, 1fr));
+     grid-auto-flow:row dense;
+}
+.initiatives__group{
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     align-items: center;
+     width: 100%;
+}
+
+.story-image img{
+     width: 100%;
+     height: 100%;
+     object-fit: contain;
+}
+
+.initiatives__group h3{
+     font-weight: 700;
+     font-size: 18px;
+     line-height: 28px;
+     color: #000;
+     text-align: center;
+}
+
+.footer-section{
+     padding: 100px 100px 10px;
+     background-color: #FFFF;
+}
+
+.thick{
+     color: black;
+}
+.thin{
+     color: black;
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+     .initiatives__allPograms{
+          padding: 100px 50px 80px;
+     }
+     .footer-section{
+          padding: 50px 20px;
+     }
+     .footer-cols {
+          grid-gap: 1rem;
+     }
+}
+
+@media (max-width: 767px) {
+     .goog-te-gadget-simple{
+          width: 190px;
+          height: 47px;
+     }
+     .initiatives__searchIconDiv{
+          display: none;
+     }
+     .initiatives__logoDiv{
+          width: 60px;
+          height: 60px;
+          margin-left: 3px;
+     }
+     .initiatives__header{    
+          padding: 0px 10px;
+     }
+     .initiative__jumbotron{
+          height: 424px;
+     }
+     .initiative__details{
+          padding: 40% 10% 0px;
+     }
+     .initiative__details h1{
+          font-weight: 900;
+          font-size: 25px;
+          line-height: 45px;
+          color: #fff;
+     }
+    
+     .initiative__category{
+          display: flex;
+          flex-direction: column;
+     }
+
+     .initiatives__allPograms{
+          padding: 50px 20px;
+     }
+ 
+}
+ 
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+     .goog-te-gadget-simple{
+          width: 190px;
+          height: 47px;
+     }
+     .initiatives__searchIconDiv{
+          display: none;
+     }
+     .initiatives__logoDiv{
+          width: 60px;
+          height: 60px;
+          margin-left: 3px;
+     }
+     .initiatives__header{    
+          padding: 0px 30px;
+     }
+
+     .initiative__jumbotron{
+          height: 424px;
+     }
+     .initiative__details{
+          padding: 40% 10% 0px;
+     }
+     .initiative__details h1{
+          font-weight: 900;
+          font-size: 25px;
+          line-height: 45px;
+          color: #fff;
+     }
+     .initiative__category{
+          display: flex;
+          flex-direction: column;
+     }
+
+     
+     
+ 
+}

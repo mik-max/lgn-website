@@ -28,6 +28,7 @@
      cursor: pointer;
      outline: none;
      font-family: 'Poppins';
+     font-weight: 900;
 }
 .btn:hover{
      color: #FFFFFF;
@@ -37,7 +38,7 @@
 }
 .home__contentDiv h2 {
      font-family: 'Poppins';
-     font-weight: 900;
+     font-weight: bolder;
      font-size: 64px;
      line-height: 96px;
      text-align: center;
@@ -45,17 +46,16 @@
 }
 .home__contentDiv p {
      font-family: 'Poppins';
-     font-weight: 400;
+     font-weight: 800;
      font-size: 16px;
      line-height: 36px;
      text-align: center;
      color: #FFFFFF;
 }
 .home__contentDiv button {
-     width: 271px;
-     height: 80px;
+     width: 190px;
+     height: 64px;
      padding: 10px;
-     font-weight: 700;
      font-size: 16px;
      line-height: 36px;
 }
@@ -72,7 +72,7 @@
 }
 .home__secondJumbotron .home__contentDiv h3 {
      font-family: 'Poppins';
-     font-weight: 700;
+     font-weight: 900;
      font-size: 48px;
      text-align: center;
      line-height: 72px;
@@ -80,7 +80,7 @@
 }
 .home__secondJumbotron .home__contentDiv p {
      font-family: 'Poppins';
-     font-weight: 400;
+     font-weight: 800;
      font-size: 16px;
      line-height: 33px;
      text-align: center;
@@ -97,7 +97,7 @@
 }
 .upcomingProgram-header{
      font-family: 'Poppins';
-     font-weight: 700;
+     font-weight: 900;
      font-size: 38px;
      line-height: 72px;
      color: #000000;
@@ -110,7 +110,7 @@
 }
 .column1 h1{
      font-family: 'Poppins';
-     font-weight: 700;
+     font-weight: 900;
      font-size: 35px;
      line-height: 68px;
      display: flex;
@@ -127,7 +127,7 @@
 }
 .column1 p {
      font-family: 'Poppins';
-     font-weight: 400;
+     font-weight: 500;
      font-size: 16px;
      line-height: 33px;
      display: flex;
@@ -138,7 +138,6 @@
 .column1 button {
      width: 190px;
      height: 64px;
-     font-weight: 700;
      font-size: 16px;
      line-height: 36px;
 }
@@ -172,7 +171,7 @@
 }
 .wrapper-content h3{
      font-family: 'Poppins';
-     font-weight: 700;
+     font-weight: 900;
      font-size: 18px;
      line-height: 36px;
      color: #000000;
@@ -184,7 +183,7 @@
 }
 .wrapper-content p{
      font-family: 'Poppins';
-     font-weight: 400;
+     font-weight: 500;
      font-size: 16px;
      line-height: 30px;
      display: flex;
@@ -371,7 +370,7 @@
 }
 .initiatives-content-header , .upcoming__programs__header{
      font-family: 'Poppins';
-     font-weight: 700;
+     font-weight: 900;
      font-size: 48px;
      line-height: 72px;
      color: #000000;
@@ -383,7 +382,7 @@
 }
 .initiatives-content-text{
      font-family: 'Poppins';
-     font-weight: 400;
+     font-weight: 500;
      font-size: 16px;
      line-height: 33px;
      text-align: center;   
@@ -424,12 +423,12 @@
      padding: 0px 15px;
 }
 .prayerthon__column1 h1{
-     font-weight: 700;
+     font-weight: 900;
      font-size: 28px;   
      color: #FFFFFF;  
 }
 .prayerthon__column1 p{
-     font-weight: 400;
+     font-weight: 500;
      font-size: 16px;
      line-height: 29px;
      color: #FFFFFF;
@@ -459,7 +458,7 @@
 }
 .mentors-div h1{
      font-family: 'Poppins';
-     font-weight: 700;
+     font-weight: 900;
      font-size: 38px;
      line-height: 72px;
      color: #FFFFFF;
@@ -519,7 +518,7 @@
      margin-bottom: 10px;
 }
 .mentors__details button{
-     width: 188px;
+     width: 150px;
      height: 62px;
 }
 .mentor:hover .mentors__details{
