@@ -127,7 +127,7 @@
 .programs__search{
      border: none;
      padding: 10px;
-     flex: 80%;
+     width: 80%;
 }
 .programs__search:focus{
      outline: none;
@@ -135,7 +135,7 @@
 .programs__searchCont{
      display: flex;
      justify-content: space-between;
-     width: auto;
+     width: 100%;
      min-width: 235px;
      height: 49px;
      border: 1px solid black;
