@@ -43,10 +43,10 @@ a:hover{
 }
 .Logo-list{
      justify-content: flex-start;
-     align-items:flex-start;
+     align-items:center;
 }
 .logo-div{
-     width: 356px;
+     width: 100%;
      height: 99px;
      margin: 5px 0px;
 }
@@ -55,6 +55,20 @@ a:hover{
      width: 100%;
      object-fit: cover;
 }
+.follow{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+.follow p{
+     font-size: 10px;
+     color: grey;
+}
+.follow img {
+     width: 50px;
+     height: 50px;
+}
+
 /*Media Queries starts*/
 
 /* Tablet desktop :768px. */
@@ -88,7 +102,7 @@ a:hover{
           justify-content: center;
      }
      .footer-cols ul{
-          flex: 100%;
+          width: 100%;
           display: flex;
           flex-direction: column;
           align-items: center;
@@ -101,8 +115,13 @@ a:hover{
           margin-top: 0px;
      }
      .logo-div{
-          width: 142px;
-          height: 142px;          
+          width: 100%;
+          height: 100%;       
+     }
+     .logo-div img {
+          width: 100%;
+          height: 100%;
+          object-fit: contain;
      }
      .initiative{
           display: none !important;
@@ -118,12 +137,6 @@ a:hover{
           text-align: center;
      }
  
-}
-@media (max-width: 767px){
-     .logo-div{
-          width: 100%;
-          height: 100%;       
-     }
 }
 /* Large Mobile :480px. */
 @media only screen and (min-width: 480px) and (max-width: 767px) {

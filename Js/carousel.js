@@ -4,7 +4,7 @@ function matchLargeScreen(x) {
      if (x.matches) { // If media query matches
           showSlides(slideIndex);
      }
-   }
+}
 
 let smallDevice = window.matchMedia("(max-width: 767px)");
 let largeDevice = window.matchMedia("(min-width: 912px) and (max-width: 1500px)");

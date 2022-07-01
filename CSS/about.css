@@ -1,4 +1,8 @@
-
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
 .about__header{
      background-color: #fff;
      display: flex;
@@ -179,17 +183,34 @@ a:hover{
 }
 .Logo-list{
      justify-content: flex-start;
-     align-items:flex-start;
+     align-items:center;
 }
 .logo-div{
      width: 356px;
-     height: 250px;
-     /* border: 1px solid red; */
+     height: 99px;
+     margin: 5px 0px;
 }
 .logo-div img{
      height: 100%;
      width: 100%;
      object-fit: cover;
+}
+.follow{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+.follow p{
+     font-size: 10px;
+     color: grey;
+}
+.follow img {
+     width: 50px;
+     height: 50px;
+}
+.copyright{
+     text-align: center;
+     margin-top: 68px;
 }
 /*Media Queries starts*/
 
@@ -206,10 +227,6 @@ a:hover{
      .Logo-list{
           align-items: center;
           margin-top: -30px;
-     }
-     .logo-div{
-          width: 102px;
-          height: 102px;
      }
      .footer-section{
           padding: 50px 20px;
@@ -253,6 +270,11 @@ a:hover{
           align-items: center;
           justify-content: center;
      }
+     .logo-div{
+          width: 100%;
+          height: 99px;
+          margin: 5px 0px;
+     }
      .footer-cols ul{
           flex: 100%;
           display: flex;
@@ -265,10 +287,6 @@ a:hover{
      }
      .Logo-list{
           margin-top: 0px;
-     }
-     .logo-div{
-          width: 142px;
-          height: 142px;          
      }
      .initiative{
           display: none !important;
@@ -328,10 +346,10 @@ a:hover{
           margin-top: 0px;
      }
      .logo-div{
-          width: 142px;
-          height: 142px;          
-          border-radius: 50%;
+          width: 100%;
+          height: 100%;       
      }
+
      .initiative{
           display: none !important;
      }

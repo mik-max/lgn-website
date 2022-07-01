@@ -1,3 +1,9 @@
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ 
+}
 .programs__header{
      background-color: #fff;
      display: flex;
@@ -119,6 +125,14 @@
      color: white !important;
 }
 .programs__search{
+     border: none;
+     padding: 10px;
+     flex: 80%;
+}
+.programs__search:focus{
+     outline: none;
+}
+.programs__searchCont{
      display: flex;
      justify-content: space-between;
      width: auto;
@@ -126,6 +140,11 @@
      height: 49px;
      border: 1px solid black;
      padding: 10px;
+}
+.programs__searchCont span .fa{
+     font-weight: 300;
+     font-size: 30px;
+     color: lightgrey;
 }
 
 
@@ -184,6 +203,27 @@
      border-radius: 4px;
      color: #FFFFFF;
 }
+.pagination{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-top: 60px;
+}
+.pagination a {
+     color: black;
+     float: left;
+
+     padding: 8px 16px;
+     text-decoration: none;
+     transition: background-color .3s;
+   }
+   
+   .pagination a.active {
+     background-color: #800080;
+     color: white;
+   }
+   
+   .pagination a:hover:not(.active) {background-color: #ddd;}
 /* Slideshow container */
 .slideshow-container {
      position: relative;
@@ -250,17 +290,34 @@ a:hover{
 }
 .Logo-list{
      justify-content: flex-start;
-     align-items:flex-start;
+     align-items:center;
 }
 .logo-div{
      width: 356px;
-     height: 250px;
-     /* border: 1px solid red; */
+     height: 99px;
+     margin: 5px 0px;
 }
 .logo-div img{
      height: 100%;
      width: 100%;
      object-fit: cover;
+}
+.follow{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+.follow p{
+     font-size: 10px;
+     color: grey;
+}
+.follow img {
+     width: 50px;
+     height: 50px;
+}
+.copyright{
+     text-align: center;
+     margin-top: 68px;
 }
 /*Media Queries starts*/
 @media (min-width: 992px) and (max-width: 1200px) {
@@ -376,8 +433,9 @@ a:hover{
           margin-top: 0px;
      }
      .logo-div{
-          width: 142px;
-          height: 142px;          
+          width: 100%;
+          height: 99px;
+          margin: 5px 0px;
      }
      .initiative{
           display: none !important;
