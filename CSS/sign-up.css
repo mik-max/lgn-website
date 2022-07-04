@@ -1,0 +1,152 @@
+.dropdownMenu{
+     height: auto;
+     z-index: 10;
+     background-color: black;
+}
+.btn{
+     background: #800080;
+     border-radius: 4px;
+     color: white;
+     border: none;
+     cursor: pointer;
+     outline: none;
+     font-family: 'Poppins';
+     font-weight: 900;
+}
+button:focus{
+     outline: none;
+}
+.btn:hover{
+     color: #FFFFFF;
+}
+.btn:focus{
+     outline: none !important;
+}
+.register-btn{
+     width: 100%;
+     padding: 16px 10px;
+     margin: 20px 0px 40px;
+}
+.dropdownMenu__header{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     width: 100%;
+     height: 120px;
+     padding: 0px 30px;
+}
+.dropdownMenu__header a, .dropdownMenu__header a:hover{
+     text-decoration: none;
+}
+.dropdownMenu__logoDiv{
+     width: 95px;
+     height: 94px;
+     border-radius: 50px;
+}
+.dropdownMenu__logoDiv img{
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+}
+.dropdownMenu__closeIconDiv{
+     width: 47px;
+     height: 47px;
+     border: 1px solid #ffffff;
+     margin-left:10px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     cursor: pointer;
+}
+.dropdownMenu__closeIconDiv i {
+     color: #ffffff;
+     font-size: 25px;
+     font-weight: 200;
+}
+.dropdownMenu__jumbotron{
+     
+     display: flex;
+     /* background-image: url('../images/dropdown__about.png'); */
+     background-position: center;
+     background-size: cover;
+     background-repeat: no-repeat;
+     padding: 10px;
+}
+.dropdownMenu__jumbotron .formDiv{
+    width: 100%;
+    max-width: 500px;
+    margin: 10px auto;
+    /* height: 80vh;
+    overflow-y: scroll; */
+}
+.dropdownMenu__jumbotron .formDiv::-webkit-scrollbar{
+     display: none;
+}
+.dropdownMenu__jumbotron .formDiv h3{
+     color: #FFFFFF;
+     font-weight: 700;
+}
+.dropdownMenu__jumbotron .formDiv h6{
+     color: #FFFFFF;
+}
+.form-wrapper{
+     margin-top: 20px;
+}
+.form-wrapper .form-label, .form-col .form-label{
+     color: white;
+}
+.form-wrapper .form-input, .form-wrapper .form-select, .form-col .form-input, .form-col .form-select{
+     width: 100%;
+     border: 1px solid #f1f2f3;
+     background-color: transparent;
+     padding: 16px 10px;
+     color: white;
+     border-radius: 4px;
+}
+.form-col{
+     width: 50%;
+     padding: 5px;
+}
+.form-row{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+
+.form-wrapper .form-select option, .form-col .form-select option {
+     color: black;
+}
+.form-input:focus{
+     outline: none;
+}
+.dropdownMenu__footer{
+     height: 70px;
+}
+@media (max-width: 767px){
+     .form-col{
+          width: 100%;
+          padding: 5px;
+     }
+     .form-row{
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+     }
+     .register-btn{
+          margin: 20px 0px 60px;
+     }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px){
+     .form-col{
+          width: 100%;
+          padding: 5px;
+     }
+     .form-row{
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+     }
+}

@@ -1,3 +1,4 @@
+
 document.addEventListener('DOMContentLoaded', function (){
      document.getElementById('tab1').addEventListener('click', function(){
           document.getElementById('tab1').classList.add('active__tabs');

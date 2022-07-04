@@ -19,12 +19,13 @@ ul:nth-child(3){
 }
 a{
      text-decoration: none;
+     cursor: pointer;
 }
 a:hover{
      text-decoration: none;
+
 }
 .thick{
-     font-family: 'Poppins';
      font-weight: 700;
      font-size: 16px;
      line-height: 36px;
@@ -33,13 +34,15 @@ a:hover{
      padding: 5px 0px;
 }
 .thin{
-     font-family: 'Poppins';
      font-weight: 500;
      font-size: 16px;
      line-height: 33px;
      color: #FFF;
      text-align: center;
      padding: 5px 0px;
+}
+.thin:hover, .thick:hover{
+     color: #800080;
 }
 .Logo-list{
      justify-content: flex-start;
@@ -81,13 +84,10 @@ a:hover{
           font-size: 16px;
           line-height: 27px;
      }
-     .Logo-list{
-          align-items: center;
-          margin-top: -30px;
-     }
      .logo-div{
-          width: 102px;
-          height: 102px;
+          width: 100%;
+          height: 99px;
+          margin: 5px 0px;
      }
      .footer-section{
           padding: 50px 20px;

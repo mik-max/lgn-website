@@ -1,3 +1,4 @@
+
 document.addEventListener('DOMContentLoaded', function (){
      document.getElementById('about__accordionHeader1').addEventListener('click', function(){
           document.getElementById('subMenu1').classList.toggle('hide');
