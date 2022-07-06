@@ -84,7 +84,7 @@
 }
 .initiative__details p{
      font-weight: 500;
-     font-size: 16px;
+   font-size: 20px;
      line-height: 28px;
      color: #fff;
 }
@@ -117,7 +117,7 @@
 
 .initiatives__group h3{
      font-weight: 700;
-     font-size: 18px;
+    font-size: 20px;
      line-height: 28px;
      color: #000;
      text-align: center;
@@ -231,7 +231,7 @@
           display: none !important;
      }
      .thick{
-          font-size: 16px;
+        font-size: 20px;
           line-height: 27px;
           text-align: center;
      }

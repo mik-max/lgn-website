@@ -89,7 +89,7 @@
 }
 .program__details p{
      font-weight: 500;
-     font-size: 16px;
+     font-size: 22px;
      line-height: 28px;
      color: #fff;
 }
@@ -120,7 +120,7 @@
 }
 .programs__tabs p{
      font-weight: 500;
-     font-size: 16px;
+   font-size: 20px;
      line-height: 28px;
 }
 .active__tabs{
@@ -163,7 +163,7 @@
 }
 .story-image-div h4{
      font-weight: 500;
-     font-size: 18px;
+    font-size: 20px;
      line-height: 27px;
      color: #383737;
 }
@@ -197,7 +197,7 @@
 }
 .story-content p{
      font-weight: 500;
-     font-size: 16px;
+   font-size: 20px;
      line-height: 33px;
      color: #383737;
 }
@@ -277,7 +277,7 @@ a:hover{
 }
 .thick{
      font-weight: 700;
-     font-size: 16px;
+   font-size: 20px;
      line-height: 36px;
      color: #000;
      text-align: center;
@@ -285,7 +285,7 @@ a:hover{
 }
 .thin{
      font-weight: 500;
-     font-size: 16px;
+   font-size: 20px;
      line-height: 33px;
      color: #000;
      text-align: center;
@@ -344,7 +344,7 @@ a:hover{
      }
      .programs__tabs p{
           font-weight: 400;
-          font-size: 16px;
+        font-size: 20px;
           line-height: normal;
      }
      .programs__allPograms{
@@ -355,7 +355,7 @@ a:hover{
           line-height: 30px;
      }     
      .thin{
-          font-size: 18px;
+         font-size: 20px;
           line-height: 27px;
      }
      .logo-div{
@@ -445,7 +445,7 @@ a:hover{
           display: none !important;
      }
      .thick{
-          font-size: 16px;
+        font-size: 20px;
           line-height: 27px;
           text-align: center;
      }
@@ -536,7 +536,7 @@ a:hover{
           display: none !important;
      }
      .thick{
-          font-size: 16px;
+        font-size: 20px;
           line-height: 27px;
           text-align: center;
      }

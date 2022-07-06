@@ -90,12 +90,12 @@
 }
 .about__column1 p{
      font-weight: 400;
-     font-size: 16px;
+   font-size: 20px;
      line-height: 28px;
 }
 .about__column1 a{
      font-weight: 700;
-     font-size: 16px;
+   font-size: 20px;
      line-height: 36px;
      color: #800080;
 }
@@ -123,7 +123,7 @@
      width: 271px;
      height: 80px;
      font-weight: 700;
-     font-size: 16px;
+   font-size: 20px;
      line-height: 36px;
 }
 .about__participate a{
@@ -133,7 +133,7 @@
      width: 271px;
      height: 80px;
      font-weight: 700;
-     font-size: 16px;
+   font-size: 20px;
 }
 .about__participateImgDiv{
      max-width: 743px;
@@ -175,7 +175,7 @@ a:hover{
 }
 .thick{
      font-weight: 700;
-     font-size: 16px;
+   font-size: 20px;
      line-height: 36px;
      color: #000;
      text-align: center;
@@ -183,7 +183,7 @@ a:hover{
 }
 .thin{
      font-weight: 500;
-     font-size: 16px;
+   font-size: 20px;
      line-height: 33px;
      color: #000;
      text-align: center;
@@ -232,11 +232,11 @@ a:hover{
           padding: 100px 50px 80px;
      }
      .thick{
-          font-size: 16px;
+        font-size: 20px;
           line-height: 30px;
      }     
      .thin{
-          font-size: 16px;
+        font-size: 20px;
           line-height: 27px;
      }
      .footer-section{
@@ -276,7 +276,7 @@ a:hover{
           line-height: 36px;
      }
      .about__column1 p{
-          font-size: 16px;
+        font-size: 20px;
           line-height: 24px;
      }
      
@@ -308,7 +308,7 @@ a:hover{
           display: none !important;
      }
      .thick{
-          font-size: 16px;
+        font-size: 20px;
           line-height: 27px;
           text-align: center;
      }
@@ -370,7 +370,7 @@ a:hover{
           display: none !important;
      }
      .thick{
-          font-size: 16px;
+        font-size: 20px;
           line-height: 27px;
           text-align: center;
      }

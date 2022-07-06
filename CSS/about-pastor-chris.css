@@ -35,7 +35,7 @@
 }
 .about__pastor__column1 p{
      font-weight: 400;
-     font-size: 16px;
+   font-size: 20px;
      line-height: 28px;
 }
 .about__pastor__column2{
@@ -74,7 +74,7 @@
 }
 .about__accordion p{
      font-weight: 700;
-     font-size: 16px;
+   font-size: 20px;
      line-height: 28px;
      cursor: pointer;
 }
