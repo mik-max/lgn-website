@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;1,100;1,200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Canela+Deck:ital,wght@0,100;0,200;1,100;1,200&display=swap');
+@import url('https://db.onlinewebfonts.com/c/031da03967812d134ed68febd3ba78a9?family=GT+America');
 /* @import url('https://db.onlinewebfonts.com/c/6e2da64b88f7e60cda1df63cb63cc8f2?family=Canela+Deck'); */
 
 *{
@@ -13,7 +14,7 @@ html{
 }
 body{
      top: 0px !important;
-     font-family: 'Canela Deck';
+     font-family: 'GT America';
 }
 
 
