@@ -35,7 +35,7 @@
 }
 .about__pastor__column1 p{
      font-weight: 400;
-   font-size: 20px;
+     font-size: 20px;
      line-height: 28px;
 }
 .about__pastor__column2{
@@ -53,7 +53,10 @@
      display: flex;
 }
 .about__pastor_div div{
-     width: 85%;
+     width: 100%;
+}
+.card{
+     word-wrap: normal !important;
 }
 .items{
      list-style-type: none;

@@ -57,18 +57,17 @@
      color: #FFFFFF;
 }
 .home__contentDiv button , .home__contentDiv a{
-     width: 190px;
-     height: 64px;
+     min-width: 188px;
      padding: 10px;
-    font-size: 16px;
-     line-height: 36px;
+     font-size: 16px;
+     padding: 12px 15px;
 }
 .home__contentDiv button:focus{
      outline: none;
 }
 .home__secondJumbotron{
      width: 100%;
-     height: 80vh;
+     height: 50vh;
      background-color: #000000;
      display: flex;
      justify-content: center;
@@ -129,7 +128,7 @@
 .column1 p {
      
      font-weight: 500;
-  font-size: 20px;
+     font-size: 20px;
      line-height: 33px;
      display: flex;
      align-items: center;
@@ -138,9 +137,7 @@
 }
 .column1 button , .column1 a {
      width: 190px;
-     height: 64px;
-  font-size: 20px;
-     line-height: 36px;
+     font-size: 20px;
 }
 .column2{
      flex: 60%;
@@ -154,7 +151,7 @@
 .imageDiv img{
      width: 100%;
      height: 100%;
-     object-fit: cover;
+     object-fit: contain;
 }
 .wrapper{
      display: flex;
@@ -204,7 +201,7 @@
 .sub-story-section{
      background-color: #FFFFFF;
      padding: 180px 100px 20px;
-     border-bottom: 4px solid #000000;
+     /* border-bottom: 4px solid #000000; */
 }
 .story-title{ 
      font-weight: 700;
@@ -249,25 +246,23 @@
      display: flex;
      flex-direction: column;
      padding-inline-end: 5px;
-
 }
 .story-content h3{
-     
      font-weight: 700;
      font-size: 36px;
      line-height: 54px;
      color: #000000;
 }
 .story-content p{
-     
      font-weight: 400;
-  font-size: 20px;
+     font-size: 20px;
      line-height: 33px;
      color: #000000;
 }
 .story-content button{
      width: 188px;
-     height: 62px;
+     font-size: 16px;
+     padding: 12px 15px;
      border-radius: 4px;
      color: #FFFFFF;
 }
@@ -303,6 +298,9 @@
      margin-top: 40px;
    }
    .arrow-div .prev, .arrow-div .next {
+     display: flex;
+     justify-content: center;
+     align-items: center;
      cursor: pointer;
      color: black;
      font-weight: bold;
@@ -317,6 +315,9 @@
      margin: 0px 22px;
    }
    .arrow-div2 .prev, .arrow-div2 .next {
+     display: flex;
+     justify-content: center;
+     align-items: center;
      cursor: pointer;
      color: white;
      font-weight: bold;
@@ -367,46 +368,94 @@
    }
 
 .initiatives-section{
-     padding: 100px 100px 80px;
+     padding: 20px 100px 80px;
 }
+.upcoming-section{
+     padding: 20px 100px 80px;
+     background-color: #200720;
+}
+
 .initiatives-div{
      display: flex;
      justify-content: center;
      align-items: center;
-     
+     position: relative;
 }
-.initiatives-content, .upcoming__programs{
+.initiatives-content{
      display: flex;
      flex-direction: column;
      justify-content: center;
      align-items: center;
      padding: 10px;
+     
+}
+.upcoming__programs{
+     width: 100%;
+     max-width: 750px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     padding: 10px;
+     
+     /* border: 1px solid red; */
 }
 .initiatives-content-header , .upcoming__programs__header{
      
      font-weight: 800;
      font-size: 48px;
      line-height: 72px;
-     color: #000000;
+     color: #FFFFFF;
 }
-.initiatives-content button , .initiatives-content a{
+.initiatives-slide{
+     width: 400px;
+     display: flex;
+     overflow-y: hidden;
+     overflow-x: scroll !important;
+     border: 1px solid #f1f2f3;
+     border-radius: 10px;
+     padding: 10px 0px;
+}
+.initiatives-slide::-webkit-scrollbar {
+     width: 10px;
+}
+ 
+.initiatives-slide::-webkit-scrollbar-track {
+     background-color: #f1f2f3;
+}
+ 
+.initiatives-slide::-webkit-scrollbar-thumb {
+     box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+     background-color: #800080;
+     border-radius: 50px;
+}
+
+.initiatives-slide .wrap{
+     width: 100%;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+}
+.initiatives-slide .wrap button , .initiatives-slide .wrap a{
      width: 238px;
-     height: 64px;
+     padding: 10px;
+     font-size: 16px;
+     padding: 12px 15px;
      margin-top: 20px;
 }
-.initiatives-content a{
+.initiatives-slide .wrap a{
      display: flex; 
      justify-content: center;
      align-items: center;
 }
-.initiatives-content h3{
+.initiatives-slide .wrap h3{
      font-weight: 700;
      font-size: 20px;
 }
 .initiatives-content-text{
-     
      font-weight: 500;
-  font-size: 20px;
+     font-size: 20px;
      line-height: 33px;
      text-align: center;   
      color: #000000;
@@ -414,10 +463,9 @@
      max-width: 806px;
 }
 .initiatives-img-div{
-     width: 628px;
-     height: 328px;
+     width: 400px;
+     height: 180px;
      margin: 15px 0px;
-     /* background: #C4C4C4; */
 }
 .initiatives-img-div img {
      width: 100%;
@@ -425,10 +473,10 @@
      object-fit: contain;
 }
 .upcoming__programs__imgdiv{
-     max-width: 546px;
-     width: 100%;
-     max-height: 336px;
-     margin-top: 20px;
+     width: 750px;
+     max-width: 100%;
+     height: 300px;
+     max-height: 100%;
      box-shadow: 0px 10px 43px 0px rgba(0, 0, 0, 0.3);
 }
 .upcoming__programs__img{
@@ -436,6 +484,16 @@
      height: 100%;
      object-fit: contain;
      
+}
+.upcoming__programs .carousel .carousel-control-prev, .upcoming__programs .carousel .carousel-control-next{
+     background-color: #000000;
+     color: #FFFFFF;
+     height: 50px;
+     width: 50px;
+     border-radius: 50%;
+     margin: auto 10px;
+     z-index: 10;
+     opacity: 1 !important;
 }
 .prayerthon__section{
      padding: 100px 100px 80px;
@@ -465,7 +523,9 @@
 }
 .prayerthon__column1 button{
      width: 188px;
-     height: 62px;
+     padding: 10px;
+     font-size: 16px;
+     padding: 12px 15px;
 }
 .prayerthon__column2{
      width: 50%;
@@ -474,7 +534,7 @@
 .prayerthon__column2 img{
      width: 100%;
      height: 100%;
-     object-fit: cover;
+     object-fit: contain;
 }
 .mentors-section{
      background-color: #000000;
@@ -486,7 +546,6 @@
      padding: 10px;
 }
 .mentors-div h1{
-     
      font-weight: 800;
      font-size: 38px;
      line-height: 72px;
@@ -514,7 +573,7 @@
      height: 500px;
      border: 1px solid white;
      padding: 10px 25px;
-     background-image: linear-gradient(360deg, #000000 7.7%, rgba(0, 0, 0, 0.2) 64.71%), url("../images/mentors.png");
+     
      background-repeat: no-repeat;
      background-size: cover;
      display: flex; 
@@ -541,27 +600,29 @@
 .mentor-text{
      
      font-weight: 400;
-  font-size: 20px;
-     line-height: 30px;
+     font-size: 20px;
+     line-height: 20px;
      color: #FFFFFF;
      cursor: pointer;
 }
 
 .mentors__details{
-     height: 100%;
      color: white !important;
-     height: 250px;
+     height: 0px;
      overflow-y: scroll;
-     padding: 10px 0px;
-     display: none;
+     padding: 5px 0px;
+     /* display: none; */
      margin-bottom: 10px;
+     transition: height ease-in-out .50s;
 }
 .mentors__details button{
      width: 150px;
-     height: 62px;
+     font-size: 16px;
+     padding: 12px 15px;
 }
 .mentor:hover .mentors__details{
-     display: block;
+     /* display: block; */
+     height: 250px;
 }
 .mentors__details::-webkit-scrollbar{
      display: none;
@@ -589,6 +650,9 @@
 @media (min-width: 768px) and (max-width: 1024px) {
      .home__introJumbotron{
           background-position: center;
+     }
+     .home__secondJumbotron{
+          height: 40vh;
      }
      .column1 h1{
           font-size: 40px;
@@ -619,6 +683,13 @@
      .story-content p{
           line-height: 27px;
      }
+     .pad, .main-story-section, .initiatives-section, .mentors-section, .prayerthon__section{
+          padding: 50px 20px;
+     }
+     .initiatives-slide, .initiatives-img-div{
+          width: 480px;
+     }
+
    .arrow-div .prev, .arrow-div .next, .arrow-div2 .prev, .arrow-div2 .next {
           font-size: 35px;
           width: 60px;
@@ -651,28 +722,29 @@
           font-size: 12px;
           line-height: 18px;
      }
+
 }
 
 /* small mobile :320px. */
 @media (max-width: 767px) {
      .home__introJumbotron{ 
-          height: 70vh;
+          height: 80vh;
           background-position: center;
      }
 
      .home__contentDiv h2{
-          font-size: 30px;
+          font-size: 25px;
           line-height: 45px;
      }
      .home__contentDiv p{
           font-size: 16px;
           line-height: 20px;
+          font-weight: 300;
+          letter-spacing: 1px;
+          
      }
      .home__contentDiv button{
-          width: 126px;
-          height: 38px;
           font-size: 16px;
-          line-height: 20px;
      }
      .home__secondJumbotron{
           height: 60vh;
@@ -684,8 +756,10 @@
      .home__secondJumbotron .home__contentDiv p{
           font-size: 16px;
           line-height: 20px;
+          font-weight: 300;
+          letter-spacing: 1px;
      }
-     .pad, .main-story-section, .initiatives-section, .mentors-section, .prayerthon__section{
+     .pad, .main-story-section, .initiatives-section, .mentors-section, .prayerthon__section , .upcoming-section{
           padding: 50px 20px;
      }
      .upcomingProgram-header{
@@ -694,8 +768,10 @@
      }
 
      .home__upComingPrograms{
-          flex-wrap: wrap;
-          
+          flex-direction: column;
+     }
+     .column1{
+          margin-bottom: 120px;
      }
      .column1, .column2{
           flex: 100%;
@@ -710,9 +786,8 @@
      }
      .column1 button{
           width: 122px;
-          height: 38px;
           font-size: 16px;
-          line-height: 20px;
+          padding: 12px 15px;
      }
      .imageDiv{
           height: 479px;
@@ -773,9 +848,8 @@
      }
      .story-content button{
           width: 122px;
-          height: 38px;
           font-size: 12px;
-          line-height: 18px;
+          padding: 12px 15px;
      }
      .arrow-div{
           display: none;
@@ -791,12 +865,38 @@
           font-size: 16px;
           line-height: 20px;
      }
+     .initiatives-slide{
+          width: 280px;
+     }
      .initiatives-img-div{
-          width: 100%;
+          width: 280px;
           height: 183px;
      }
-     
-     
+     .carousel-inner{
+          display: flex !important;
+          flex-direction: column !important;
+          overflow-y: scroll !important;
+          height: 376px !important;
+     }
+     .carousel-inner::-webkit-scrollbar{
+          display: none;
+     }
+     .carousel-item{
+          display: block !important;
+     }
+     .upcoming__programs .carousel .carousel-control-prev, .upcoming__programs .carousel .carousel-control-next{
+          display: none;
+     }
+     .carousel-control-prev-icon, .carousel-control-next-icon{
+          display: none;
+     }
+     .upcoming__programs__imgdiv{
+          width: 100%;
+          height: 100%;
+          max-height: 100%;
+          box-shadow: none;
+          margin-bottom: 30px;
+     }
      .mentors-div{
           padding: 0px;
      }
@@ -810,18 +910,6 @@
           margin-top: 40px;
      } 
 
-     .carousel-inner{
-          display: flex !important;
-          flex-direction: column !important;
-          overflow-y: scroll !important;
-          height: 376px !important;
-     }
-     .carousel-inner::-webkit-scrollbar{
-          display: none;
-     }
-     .carousel-item{
-          display: block !important;
-     }
      .mentor{
           height: 376px;
      }
@@ -840,6 +928,7 @@
           height: 30px;
           margin: 0px 10px;
      }
+
      .prayerthon__div{
           flex-direction: column-reverse;
      }
@@ -864,7 +953,7 @@
 @media only screen and (min-width: 480px) and (max-width: 767px) {
 
      .home__introJumbotron{
-          height: 70vh;
+          height: 80vh;
           background-position: center;
      }
      .home__contentDiv h2{
@@ -872,12 +961,6 @@
           line-height: 45px;
      }
      .home__contentDiv p{
-          font-size: 16px;
-          line-height: 20px;
-     }
-     .home__contentDiv button{
-          width: 126px;
-          height: 38px;
           font-size: 16px;
           line-height: 20px;
      }
@@ -912,9 +995,11 @@
      }
      .column1 button{
           width: 122px;
-          height: 38px;
           font-size: 16px;
-          line-height: 20px;
+
+     }
+     .home__upComingPrograms{
+          flex-direction: column;
      }
      .imageDiv{
           height: 479px;
@@ -934,7 +1019,6 @@
           width: 122px;
           height: 38px;
           font-size: 16px;
-          line-height: 20px;
      }
 
      .sub-story-section{
@@ -976,9 +1060,8 @@
      }
      .story-content button{
           width: 122px;
-          height: 38px;
+
           font-size: 16px;
-          line-height: 20px;
      }
      .arrow-div{
           display: none;
@@ -996,8 +1079,11 @@
           font-size: 16px;
           line-height: 20px;
      }
+     .initiatives-slide{
+          width: 321px;
+     }
      .initiatives-img-div{
-          width: 100%;
+          width: 321px;
           height: 183px;
      }
      .mantors-category-div{
@@ -1015,6 +1101,21 @@
      .carousel-item{
           display: block !important;
      }
+
+     .upcoming__programs .carousel .carousel-control-prev, .upcoming__programs .carousel .carousel-control-next{
+          display: none;
+     }
+     .carousel-control-prev-icon, .carousel-control-next-icon{
+          display: none;
+     }
+     .upcoming__programs__imgdiv{
+          width: 100%;
+          height: 100%;
+          max-height: 100%;
+          box-shadow: none;
+          margin-bottom: 30px;
+     }
+
      .mentors-div h1{
           font-size: 24px;
           line-height: 36px;

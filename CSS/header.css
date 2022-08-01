@@ -97,6 +97,10 @@ div#google_translate_element div.goog-te-gadget-simple a.goog-te-menu-value span
  .goog-tooltip skiptranslate{
       display: none !important; top: 0px !important;
 } 
+
+.goog-te-menu2-item div{
+     border: 1px solid black;
+}
  .activity-root { 
       display: hide !important;
 } 

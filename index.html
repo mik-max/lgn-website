@@ -13,6 +13,10 @@
           <link rel="stylesheet" href="CSS/jumbotron.css">
           <link rel="stylesheet" href="CSS/footer.css">
           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+          <link rel="stylesheet"href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+          <link rel="preconnect" href="https://fonts.googleapis.com">
+          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+          <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,700;1,100;1,200;1,300;1,400;1,700&display=swap" rel="stylesheet">
           <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
           <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
           <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
@@ -58,8 +62,8 @@
                               <li class="dropdownMenu__menuList" id="aboutUs">About Us</li>
                               <li class="dropdownMenu__menuList" id="programs">Programs</li>
                               <li class="dropdownMenu__menuList" id="ourInitiatives"><a href="initiatives.html">Our Initiative</a></li>
-                              <li class="dropdownMenu__menuList" id="contactUs">Contact Us</li>
-                              <li class="dropdownMenu__menuList" id="contribute">Contribute</li>
+                              <li class="dropdownMenu__menuList" id="contactUs"><a href="contact.html">Contact Us</a></li>
+                              <li class="dropdownMenu__menuList" id="contribute"><a href="contribute.html">Contribute</a></li></li>
                          </ul>
                     </div>
                     <div class="dropdownMenu__bar animate__animated animate__fadeInDown  hide" id="dropdownBars"></div>
@@ -81,7 +85,7 @@
                     <div class="home__contentDiv">
                          <h2 class="" data-aos="fade-down" data-aos-duration="1000">Building Elite Performers</h2>
                          <p data-aos="fade-down" data-aos-duration="1000">Become exceptional everyday by developing professional skills in the marketplace of life round the globe.</p>
-                         <a href="./sign-up.html" target="_blank" class="btn  shadow-none register " data-aos="zoom-in" data-aos-duration="1000">Join The Network </a>
+                         <a href="./sign-up.html" target="_blank" class="btn  shadow-none register " data-aos="zoom-in" data-aos-duration="1000">Join The Network <span><i class='bx bxs-rocket'></i></span> </a>
                     </div>
                </div>
           </section>
@@ -90,7 +94,7 @@
                     <div class="home__contentDiv">
                          <h3 class="" data-aos="fade-down" data-aos-duration="1000">Welcome to the network</h3>
                          <p data-aos="fade-up" data-aos-duration="1000">We create networks to close the gap between our the Loveworld Campus Ministry and our church ministry. This is a network that offers value to its individual members by raising men and women to become exceptional in the professionalism of their work field. </p>
-                         <a href="./sign-up.html" class="btn  shadow-none register " data-aos="zoom-in" data-aos-duration="1000">Join Us </a>
+                         <a href="./sign-up.html" class="btn  shadow-none register " data-aos="zoom-in" data-aos-duration="1000">Join Us <span><i class='bx bxs-hand-left'></i></span> </a>
                     </div>
                </div>
           </section>
@@ -113,7 +117,7 @@
                               <div class="story-content">
                                    <h3>Global Connect with Pastor Chris</h2>
                                    <p>Be more efficient in your online evangelism and learn how to work like a pro from your mobile devices.</p>
-                                   <button class="btn  shadow-none" data-aos="zoom-in" data-aos-duration="1000">Read More</button>
+                                   <button class="btn  shadow-none" data-aos="zoom-in" data-aos-duration="1000">Read More <span><i class='bx bx-book-reader'></i></span></button>
                               </div>
                          </div>
                     </div>
@@ -129,7 +133,7 @@
                               <div class="story-content">
                                    <h3>Gymnazo</h2>
                                    <p>Ehance overall wellness and fitness of the spirit, mind and body. Join the 21 days full fitness program in August 2022</p>
-                                   <button class="btn  shadow-none" data-aos="zoom-in" data-aos-duration="1000">Read More</button>
+                                   <button class="btn  shadow-none" data-aos="zoom-in" data-aos-duration="1000">Read More <span><i class='bx bx-book-reader'></i></span></button>
                               </div>
                          </div>
                          
@@ -146,7 +150,7 @@
                               <div class="story-content">
                                    <h3>Excelling in startup conference</h2>
                                    <p>The network held an enterprenurial conference themed “Excelling in startup” which held on..........</p>
-                                   <button class="btn  shadow-none" data-aos="zoom-in" data-aos-duration="1000">Read More</button>
+                                   <button class="btn  shadow-none" data-aos="zoom-in" data-aos-duration="1000">Read More <span><i class='bx bx-book-reader'></i></span></button>
                               </div>
                          </div>
                     </div>
@@ -161,7 +165,7 @@
                               <div class="story-content">
                                    <h3>Leaving A Legacy Conference</h2>
                                    <p>This is a program orgainised by the Loveworld Graduate Network for young NGO leaders between the age of 18 and 35.</p>
-                                   <button class="btn  shadow-none" data-aos="zoom-in" data-aos-duration="1000">Read More</button>
+                                   <button class="btn  shadow-none" data-aos="zoom-in" data-aos-duration="1000">Read More <span><i class='bx bx-book-reader'></i></span></button>
                               </div>
                          </div>
                     </div>
@@ -175,12 +179,37 @@
                     <a class="next" onclick="plusSlides(1)">&#10095;</a>
                 </div>
           </section>
-          <section class="initiatives-section">
+          <section class="upcoming-section">
                <div class="initiatives-div">
                     <div class="upcoming__programs">
                          <h1 class="upcoming__programs__header">Upcoming Ministry Program</h1>
-                         <div class="upcoming__programs__imgdiv" data-aos="zoom-in" data-aos-duration="1000">
-                              <img class="upcoming__programs__img" src="images/upcoming.png" alt=""/>
+                         <div class="carousel slide" data-ride="carousel" id="upcoming">
+                              <!-- The slideshow -->
+                              <div class="carousel-inner">
+                                   <div class="carousel-item active">
+                                        <div class=" upcoming__programs__imgdiv" >
+                                             <img class="upcoming__programs__img" src="images/healing-streams.jpg" alt=""/>
+                                        </div>
+                                   </div>
+                                   <div class="carousel-item">
+                                        <div class=" upcoming__programs__imgdiv" >
+                                             <img class="upcoming__programs__img" src="images/upcoming.png" alt=""/>
+                                        </div>
+                                   </div>
+                                   <div class="carousel-item">
+                                        <div class="upcoming__programs__imgdiv " >
+                                             <img class="upcoming__programs__img" src="images/PRAYERTHON_banner-min.jpg" alt=""/>
+                                        </div>
+                                   </div>
+                              </div>
+                              
+                              <!-- Left and right controls -->
+                              <a class="carousel-control-prev" href="#upcoming" data-slide="prev">
+                                <span class="carousel-control-prev-icon"></span>
+                              </a>
+                              <a class="carousel-control-next" href="#upcoming" data-slide="next">
+                                <span class="carousel-control-next-icon"></span>
+                              </a>
                          </div>
                     </div>
                </div>
@@ -245,7 +274,7 @@
                          <button class="btn  shadow-none" data-aos="zoom-in" data-aos-duration="1000">Participate</button>
                     </div>
                     <div class="prayerthon__column2" data-aos="fade-up" data-aos-duration="1000">
-                         <img src="images/prayerthon.png" alt="">
+                         <img src="images/PRAYERTHON_banner-min.jpg" alt="">
                     </div>
                </div>
           </section>
@@ -255,11 +284,52 @@
                     <div class="initiatives-content">
                          <h1 class="initiatives-content-header">Our Initiatives</h1>
                          <p class="initiatives-content-text">The  Loveworld graduate network has several Initiatives and programs to help her graduates become elite performers in today’s society.</p>
-                         <div class="initiatives-img-div" data-aos="zoom-in" data-aos-duration="1000">
-                              <img src="images/MIL LOGO PNG 1.png" alt="">
+                         <div class="initiatives-slide">
+                              <div class="wrap">
+                                   <div class="initiatives-img-div" data-aos="zoom-in" data-aos-duration="1000">
+                                        <img src="images/MIL LOGO PNG 1.png" alt="">
+                                   </div>
+                                   <h3>Made In Loveworld</h3>
+                                   <a href="initiatives.html" class="btn  shadow-none">Know More</a>
+                              </div>
+                              <div class="wrap">
+                                   <div class="initiatives-img-div" data-aos="zoom-in" data-aos-duration="1000">
+                                        <img src="images/MENTORS 1.png" alt="">
+                                   </div>
+                                   <h3>Mentors hub</h3>
+                                   <a href="initiatives.html" class="btn  shadow-none">Know More</a>
+                              </div>
+                              <div class="wrap">
+                                   <div class="initiatives-img-div" data-aos="zoom-in" data-aos-duration="1000">
+                                        <img src="images/LGFS 1.png" alt="">
+                                   </div>
+                                   <h3>Loveworld Graduate Finishing School</h3>
+                                   <a href="initiatives.html" class="btn  shadow-none">Know More</a>
+                              </div>
+                              <div class="wrap">
+                                   <div class="initiatives-img-div" data-aos="zoom-in" data-aos-duration="1000">
+                                        <img src="images/Leadership 1.png" alt="">
+                                   </div>
+                                   <h3>Leadership Creation & Training</h3>
+                                   <a href="initiatives.html" class="btn  shadow-none">Know More</a>
+                              </div>
+                              <div class="wrap">
+                                   <div class="initiatives-img-div" data-aos="zoom-in" data-aos-duration="1000">
+                                        <img src="images/Alumini 1.png" alt="">
+                                   </div>
+                                   <h3>BLW Alumni Network</h3>
+                                   <a href="initiatives.html" class="btn  shadow-none">Know More</a>
+                              </div>
+                              <div class="wrap">
+                                   <div class="initiatives-img-div" data-aos="zoom-in" data-aos-duration="1000">
+                                        <img src="images/CLW 1.png" alt="">
+                                   </div>
+                                   <h3>Corper’s Loveworld</h3>
+                                   <a href="initiatives.html" class="btn  shadow-none">Know More</a>
+                              </div>
+                              
                          </div>
-                         <h3>Made In Loveworld</h3>
-                         <a href="initiatives.html" class="btn  shadow-none">Know More</a>
+                         
                     </div>
                </div>
           </section>
@@ -272,29 +342,29 @@
                          <div class="carousel-inner">
                               <div class="carousel-item active">
                                    <div class="mantors-category-div">
-                                        <div class="mentor" data-aos="flip-left" data-aos-duration="1000">
+                                        <div class="mentor fades" style="background-image: linear-gradient(360deg, #000000 7.7%, rgba(0, 0, 0, 0.2) 64.71%), url('../images/pastor-doyin-dennis-oshideko-potriate.png')">
                                              <h1 class="mentor-title">Director</h1>
-                                             <h2 class="mentor-sub-title">Pastor Denise</h2>
+                                             <h2 class="mentor-sub-title">Pastor Doyin-Dennis Oshideko</h2>
                                              <div class="mentors__details">
-                                                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate totam, ullam culpa excepturi pariatur quasi doloremque!.</p>
+                                                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate .</p>
                                                   <button class="btn  shadow-none"> Learn More</button>
                                              </div>
                                              <p class="mentor-text">Read about his leadership skills</p>
                                         </div>
-                                        <div class="mentor fades" data-aos="flip-right" data-aos-duration="1000">
+                                        <div class="mentor fades"  style="background-image: linear-gradient(360deg, #000000 7.7%, rgba(0, 0, 0, 0.2) 64.71%), url('../images/pastor-femi-otenigbagbe-potriate.jpg')">
                                              <h1 class="mentor-title">Director</h1>
-                                             <h2 class="mentor-sub-title">Pastor Denise</h2>
+                                             <h2 class="mentor-sub-title">Pastor Femi Otenigbagbe</h2>
                                              <div class="mentors__details">
-                                                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate totam, ullam culpa excepturi pariatur quasi doloremque!.</p>
+                                                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate .</p>
                                                   <button class="btn  shadow-none"> Learn More</button>
                                              </div>
                                              <p class="mentor-text">Read about his leadership skills</p>
                                         </div>
-                                        <div class="mentor fades" data-aos="flip-right" data-aos-duration="1000">
+                                        <div class="mentor fades" style="background-image: linear-gradient(360deg, #000000 7.7%, rgba(0, 0, 0, 0.2) 64.71%), url('../images/pastor-don-okhufuo.jpeg')">
                                              <h1 class="mentor-title">Director</h1>
-                                             <h2 class="mentor-sub-title">Pastor Denise</h2>
+                                             <h2 class="mentor-sub-title">Pastor Don Okhufuo</h2>
                                              <div class="mentors__details">
-                                                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate totam, ullam culpa excepturi pariatur quasi doloremque!.</p>
+                                                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate .</p>
                                                   <button class="btn  shadow-none">Learn More</button>
                                              </div>
                                              <p class="mentor-text">Read about his leadership skills</p>
@@ -304,34 +374,34 @@
                               </div>
                               <div class="carousel-item">
                                    <div class="mantors-category-div">
-                                        <div class="mentor" data-aos="flip-left" data-aos-duration="1000">
+                                        <div class="mentor fades" style="background-image: linear-gradient(360deg, #000000 7.7%, rgba(0, 0, 0, 0.2) 64.71%), url('../images/pastor-don-okhufuo.jpeg')">
                                              <h1 class="mentor-title">Director</h1>
-                                             <h2 class="mentor-sub-title">Pastor Denise</h2>
+                                             <h2 class="mentor-sub-title">Pastor Don Okhufuo</h2>
                                              <div class="mentors__details">
-                                                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate totam, ullam culpa excepturi pariatur quasi doloremque!.</p>
+                                                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate .</p>
+                                                  <button class="btn  shadow-none">Learn More</button>
+                                             </div>
+                                             <p class="mentor-text">Read about his leadership skills</p>
+                                        </div>
+                                        <div class="mentor fades"  style="background-image: linear-gradient(360deg, #000000 7.7%, rgba(0, 0, 0, 0.2) 64.71%), url('../images/chioma-amajoyi.JPG')">
+                                             <h1 class="mentor-title">Director</h1>
+                                             <h2 class="mentor-sub-title">Chioma Amajoyi</h2>
+                                             <div class="mentors__details">
+                                                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate .</p>
                                                   <button class="btn  shadow-none"> Learn More</button>
                                              </div>
                                              <p class="mentor-text">Read about his leadership skills</p>
                                         </div>
-                                        <div class="mentor fades" data-aos="flip-right" data-aos-duration="1000">
+                                        <!-- <div class=""></div> Jsut for space -->
+                                        <div class="mentor fades"  style="background-image: linear-gradient(360deg, #000000 7.7%, rgba(0, 0, 0, 0.2) 64.71%), url('../images/stephanie-nelson.webp')">
                                              <h1 class="mentor-title">Director</h1>
-                                             <h2 class="mentor-sub-title">Pastor Denise</h2>
+                                             <h2 class="mentor-sub-title">Stephanie Nelson</h2>
                                              <div class="mentors__details">
-                                                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate totam, ullam culpa excepturi pariatur quasi doloremque!.</p>
+                                                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate .</p>
                                                   <button class="btn  shadow-none"> Learn More</button>
                                              </div>
                                              <p class="mentor-text">Read about his leadership skills</p>
-                                        </div>
-                                        <div class="mentor fades" data-aos="flip-right" data-aos-duration="1000">
-                                             <h1 class="mentor-title">Director</h1>
-                                             <h2 class="mentor-sub-title">Pastor Denise</h2>
-                                             <div class="mentors__details">
-                                                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate totam, ullam culpa excepturi pariatur quasi doloremque!.</p>
-                                                  <button class="btn  shadow-none"> Learn More</button>
-                                             </div>
-                                             <p class="mentor-text">Read about his leadership skills</p>
-                                        </div>
-                                   
+                                        </div>                                   
                                    </div>
                               </div>
                          </div>
@@ -438,6 +508,7 @@
                     }
                     });
                });
+               
               </script>
           <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
           <script>

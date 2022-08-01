@@ -24,6 +24,9 @@ $(window).on('load', function(e){
      function myFunction(x) {
           if (x.matches) { // If media query matches
                $('#demo').carousel('dispose')
+               $('#upcoming').carousel('dispose')
+               document.getElementById('upcoming').removeAttribute('data-ride')
+               document.getElementById('upcoming').classList.remove('carousel')
                document.getElementById('demo').removeAttribute('data-ride')
                document.getElementById('demo').classList.remove('carousel')
                document.getElementById('carouselPrev'). removeAttribute('data-slide')
